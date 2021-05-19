@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://undertone.lfe.io/blog/sitemap.xml
