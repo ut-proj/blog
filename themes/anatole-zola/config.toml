@@ -1,0 +1,44 @@
+title = "Anatole"
+description = "A other zola theme"
+base_url = "https://example.com"
+compile_sass = true
+highlight_code = true
+build_search_index = false
+generate_rss = true
+highlight_theme = "base16-ocean-light"
+
+default_language = "en"
+
+taxonomies = [
+    {name = "tags"},
+]
+
+[translations.en]
+about = "About"
+home = "Home"
+tags = "Tags"
+archive = "Archive"
+links = "Links"
+next_page = "Next Page"
+last_page = "Last Page"
+[translations.zh]
+home = "首页"
+about = "关于"
+tags = "标签"
+archive = "归档"
+links = "友链"
+next_page = "下一页"
+last_page = "上一页"
+
+[extra.social]
+github = ""
+twitter = "w"
+facebook = ""
+instagram = "r"
+dribbble = "t"
+weibo = "y"
+
+[extra.show]
+tags = true
+links = true
+
