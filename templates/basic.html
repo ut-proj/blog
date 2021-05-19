@@ -18,7 +18,7 @@
     <meta name="msapplication-config" content={{ get_url(path="icons/browserconfig.xml", trailing_slash=false) }}>
     <meta name="theme-color" content="#2d89ef">
 
-  <link rel="stylesheet" href={{ get_url(path="css/theme.css", trailing_slash=false) }} type="text/css">
+  <link rel="stylesheet" href={{ get_url(path="theme.css", trailing_slash=false) }} type="text/css">
   <link  href={{ get_url(path="css/fontawesome-5.15.3-all.min.css", trailing_slash=false) }} rel="stylesheet" type="text/css">
   <title>{% block title %}{{ config.title }}{% endblock title %}</title>
   {% if config.generate_feed %}
