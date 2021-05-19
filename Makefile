@@ -6,7 +6,7 @@ build:
 	@zola build --output-dir=$(BUILD_DIR)
 
 publish: build
-	@git commit -am "Updated content."
+	@-git commit -am "Updated content."
 	@git push origin main
 
 run:
