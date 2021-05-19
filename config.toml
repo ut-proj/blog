@@ -1,9 +1,9 @@
 title = "A music log"
-description = "Thoughts on music generation, composition, and theory"
+description = "Thoughts on music generation, composition, and theory (and news about the undertone project)"
 base_url = "https://undertone.lfe.io/blog"
 theme = "anatole-zola"
 compile_sass = true
-build_search_index = true
+build_search_index = false
 taxonomies = [
   {name = "tags"},
 ]
