@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>A Music Log</title>
+	<subtitle>Thoughts on music generation, composition, and theory (news about the undertone project, too)</subtitle>
+	<link href="https://undertone.lfe.io/blog/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://undertone.lfe.io/blog"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2021-05-19T23:00:00+00:00</updated>
+	<id>https://undertone.lfe.io/blog/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Music scores in the browser</title>
+		<published>2021-05-19T23:00:00+00:00</published>
+		<updated>2021-05-19T23:00:00+00:00</updated>
+		<link href="https://undertone.lfe.io/blog/scores-in-browser/" type="text/html"/>
+		<id>https://undertone.lfe.io/blog/scores-in-browser/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Exploring intervals &amp; diminished chords ... and a Bach discovery</title>
+		<published>2021-05-17T23:00:00+00:00</published>
+		<updated>2021-05-17T23:00:00+00:00</updated>
+		<link href="https://undertone.lfe.io/blog/bach-intervals/" type="text/html"/>
+		<id>https://undertone.lfe.io/blog/bach-intervals/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>LispNYC: Erlang Music Systems Programming in Lisp</title>
+		<published>2021-05-11T02:00:00+00:00</published>
+		<updated>2021-05-11T02:00:00+00:00</updated>
+		<link href="https://undertone.lfe.io/blog/lispnyc-talk/" type="text/html"/>
+		<id>https://undertone.lfe.io/blog/lispnyc-talk/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Code Craft Glasgow: Making Music with Software</title>
+		<published>2021-03-18T02:00:00+00:00</published>
+		<updated>2021-03-18T02:00:00+00:00</updated>
+		<link href="https://undertone.lfe.io/blog/codecraft-glasgow/" type="text/html"/>
+		<id>https://undertone.lfe.io/blog/codecraft-glasgow/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Chord sequences in undertone</title>
+		<published>2021-03-15T02:00:00+00:00</published>
+		<updated>2021-03-15T02:00:00+00:00</updated>
+		<link href="https://undertone.lfe.io/blog/chords/" type="text/html"/>
+		<id>https://undertone.lfe.io/blog/chords/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>CodeBEAM America: Sound on BEAM II</title>
+		<published>2021-03-10T02:00:00+00:00</published>
+		<updated>2021-03-10T02:00:00+00:00</updated>
+		<link href="https://undertone.lfe.io/blog/codebeam-talk/" type="text/html"/>
+		<id>https://undertone.lfe.io/blog/codebeam-talk/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>CodeBEAM America: Teaser Video</title>
+		<published>2021-03-03T02:00:00+00:00</published>
+		<updated>2021-03-03T02:00:00+00:00</updated>
+		<link href="https://undertone.lfe.io/blog/teaser-video-2/" type="text/html"/>
+		<id>https://undertone.lfe.io/blog/teaser-video-2/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Publishing to Soundcloud</title>
+		<published>2021-02-27T05:00:00+00:00</published>
+		<updated>2021-02-27T05:00:00+00:00</updated>
+		<link href="https://undertone.lfe.io/blog/soundcloud/" type="text/html"/>
+		<id>https://undertone.lfe.io/blog/soundcloud/</id>
+		<content type="html">&lt;p&gt;Well, I&#x27;ve started doing it: &lt;a href=&quot;https:&#x2F;&#x2F;soundcloud.com&#x2F;oubiwann&#x2F;tracks&quot;&gt;publishing to soundcloud&lt;&#x2F;a&gt;. Mostly, this is thanks to all the wonderful support from the Erlang&#x2F;BEAM community for their positive feedback on various talks and demos I&#x27;ve given around Extempore and undertone.&lt;&#x2F;p&gt;
+&lt;p&gt;More tracks will be published in the future, as they are created.&lt;&#x2F;p&gt;
+&lt;p&gt;Also, note that I&#x27;m creating musical content under the name &lt;a href=&quot;https:&#x2F;&#x2F;soundcloud.com&#x2F;forgotten-tones&#x2F;tracks&quot;&gt;Forgotten Tones&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Version 0.3.0 Released</title>
+		<published>2021-02-20T23:00:08+00:00</published>
+		<updated>2021-02-20T23:00:08+00:00</updated>
+		<link href="https://undertone.lfe.io/blog/release-0-3-0/" type="text/html"/>
+		<id>https://undertone.lfe.io/blog/release-0-3-0/</id>
+		<content type="html">&lt;h2 id=&quot;new-release&quot;&gt;New Release&lt;&#x2F;h2&gt;
+&lt;p&gt;Version 0.3.0 of undertone has been released.&lt;&#x2F;p&gt;
+&lt;p&gt;Releases are available &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;ut-proj&#x2F;undertone&#x2F;tags&quot;&gt;here&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Getting started in generative music</title>
+		<published>2021-02-19T02:00:00+00:00</published>
+		<updated>2021-02-19T02:00:00+00:00</updated>
+		<link href="https://undertone.lfe.io/blog/starting-gen-music/" type="text/html"/>
+		<id>https://undertone.lfe.io/blog/starting-gen-music/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Lambda Days: Sound on BEAM I</title>
+		<published>2021-02-18T02:00:00+00:00</published>
+		<updated>2021-02-18T02:00:00+00:00</updated>
+		<link href="https://undertone.lfe.io/blog/lambda-days/" type="text/html"/>
+		<id>https://undertone.lfe.io/blog/lambda-days/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>DFW BEAMers undertone Demo</title>
+		<published>2021-02-14T02:00:00+00:00</published>
+		<updated>2021-02-14T02:00:00+00:00</updated>
+		<link href="https://undertone.lfe.io/blog/dfw-beamers-demo/" type="text/html"/>
+		<id>https://undertone.lfe.io/blog/dfw-beamers-demo/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Behringer Model D</title>
+		<published>2021-02-04T02:00:00+00:00</published>
+		<updated>2021-02-04T02:00:00+00:00</updated>
+		<link href="https://undertone.lfe.io/blog/model-d/" type="text/html"/>
+		<id>https://undertone.lfe.io/blog/model-d/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>DFW BEAMers: Introducing undertone</title>
+		<published>2021-02-03T02:00:00+00:00</published>
+		<updated>2021-02-03T02:00:00+00:00</updated>
+		<link href="https://undertone.lfe.io/blog/dfw-beamers/" type="text/html"/>
+		<id>https://undertone.lfe.io/blog/dfw-beamers/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>VCV Rack: Free SW Modular Synth?!</title>
+		<published>2021-01-25T02:00:00+00:00</published>
+		<updated>2021-01-25T02:00:00+00:00</updated>
+		<link href="https://undertone.lfe.io/blog/vcv-rack/" type="text/html"/>
+		<id>https://undertone.lfe.io/blog/vcv-rack/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Teaser video audio: full track</title>
+		<published>2021-01-20T02:00:00+00:00</published>
+		<updated>2021-01-20T02:00:00+00:00</updated>
+		<link href="https://undertone.lfe.io/blog/full-track/" type="text/html"/>
+		<id>https://undertone.lfe.io/blog/full-track/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>LambdaDays: Teaser Video</title>
+		<published>2021-01-05T02:00:00+00:00</published>
+		<updated>2021-01-05T02:00:00+00:00</updated>
+		<link href="https://undertone.lfe.io/blog/teaser-video/" type="text/html"/>
+		<id>https://undertone.lfe.io/blog/teaser-video/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>New Instagram Account</title>
+		<published>2020-12-14T15:00:00+00:00</published>
+		<updated>2020-12-14T15:00:00+00:00</updated>
+		<link href="https://undertone.lfe.io/blog/new-instagram-account/" type="text/html"/>
+		<id>https://undertone.lfe.io/blog/new-instagram-account/</id>
+		<content type="html">&lt;p&gt;The undertone project has a new Instagram account: &lt;a href=&quot;https:&#x2F;&#x2F;www.instagram.com&#x2F;lfeundertone&#x2F;&quot;&gt;instagram.com&#x2F;lfeundertone&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;More to come ...&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Version 0.2.0 Released</title>
+		<published>2020-12-10T23:00:08+00:00</published>
+		<updated>2020-12-10T23:00:08+00:00</updated>
+		<link href="https://undertone.lfe.io/blog/release-0-2-0/" type="text/html"/>
+		<id>https://undertone.lfe.io/blog/release-0-2-0/</id>
+		<content type="html">&lt;h2 id=&quot;new-release&quot;&gt;New Release&lt;&#x2F;h2&gt;
+&lt;p&gt;Version 0.2.0 of undertone has been released.&lt;&#x2F;p&gt;
+&lt;p&gt;Releases are available &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;ut-proj&#x2F;undertone&#x2F;tags&quot;&gt;here&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>An undertone Book</title>
+		<published>2020-12-02T06:00:00+00:00</published>
+		<updated>2020-12-02T06:00:00+00:00</updated>
+		<link href="https://undertone.lfe.io/blog/undertone-book/" type="text/html"/>
+		<id>https://undertone.lfe.io/blog/undertone-book/</id>
+		<content type="html">&lt;p&gt;There&#x27;s a new project focused on the creation of music with undertone, with aims of not only documenting the use of Extempore and undertone, but also the exploration of tones, music theory, and composition using undertone.&lt;&#x2F;p&gt;
+&lt;p&gt;Links:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;ut-proj&#x2F;ut-proj.github.io&quot;&gt;Github project&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;cnbbooks&#x2F;lfe-music-programming&quot;&gt;Book repo&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;undertone.lfe.io&#x2F;book&quot;&gt;Published draft&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Version 0.1.0 Released</title>
+		<published>2020-11-28T23:00:08+00:00</published>
+		<updated>2020-11-28T23:00:08+00:00</updated>
+		<link href="https://undertone.lfe.io/blog/2020-11-28b-release-0-1-0/" type="text/html"/>
+		<id>https://undertone.lfe.io/blog/2020-11-28b-release-0-1-0/</id>
+		<content type="html">&lt;h2 id=&quot;first-release&quot;&gt;First Release&lt;&#x2F;h2&gt;
+&lt;p&gt;Version 0.1.0 of undertone has been released.&lt;&#x2F;p&gt;
+&lt;p&gt;Releases are available &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;ut-proj&#x2F;undertone&#x2F;tags&quot;&gt;here&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>New Twitter Account</title>
+		<published>2020-11-28T15:00:00+00:00</published>
+		<updated>2020-11-28T15:00:00+00:00</updated>
+		<link href="https://undertone.lfe.io/blog/new-twitter-account/" type="text/html"/>
+		<id>https://undertone.lfe.io/blog/new-twitter-account/</id>
+		<content type="html">&lt;p&gt;The undertone project has a new Twitter account: &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;lfeundertone&quot;&gt;twitter.com&#x2F;lfeundertone&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;More to come ...&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>The Project Begins</title>
+		<published>2020-09-10T00:00:00+00:00</published>
+		<updated>2020-09-10T00:00:00+00:00</updated>
+		<link href="https://undertone.lfe.io/blog/project-start/" type="text/html"/>
+		<id>https://undertone.lfe.io/blog/project-start/</id>
+		<content type="html">&lt;p&gt;There&#x27;s a new Github org for undertone at &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;ut-proj&quot;&gt;github.com&#x2F;ut-proj&lt;&#x2F;a&gt;. The undertone project proper is at &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;ut-proj&#x2F;undertone&quot;&gt;github.com&#x2F;ut-proj&#x2F;undertone&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Basic Markdown syntax</title>
+		<published>2020-09-09T00:00:00+00:00</published>
+		<updated>2020-09-09T00:00:00+00:00</updated>
+		<link href="https://undertone.lfe.io/blog/00-help-markdown/" type="text/html"/>
+		<id>https://undertone.lfe.io/blog/00-help-markdown/</id>
+		<content type="html">&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h2 id=&quot;headings&quot;&gt;Headings&lt;&#x2F;h2&gt;
+&lt;p&gt;The following HTML &lt;code&gt;&amp;lt;h1&amp;gt;&lt;&#x2F;code&gt;—&lt;code&gt;&amp;lt;h6&amp;gt;&lt;&#x2F;code&gt; elements represent six levels of section headings. &lt;code&gt;&amp;lt;h1&amp;gt;&lt;&#x2F;code&gt; is the highest section level while &lt;code&gt;&amp;lt;h6&amp;gt;&lt;&#x2F;code&gt; is the lowest.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;h1&quot;&gt;H1&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;h2&quot;&gt;H2&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;h3&quot;&gt;H3&lt;&#x2F;h3&gt;
+&lt;h4 id=&quot;h4&quot;&gt;H4&lt;&#x2F;h4&gt;
+&lt;h5 id=&quot;h5&quot;&gt;H5&lt;&#x2F;h5&gt;
+&lt;h6 id=&quot;h6&quot;&gt;H6&lt;&#x2F;h6&gt;
+&lt;h2 id=&quot;paragraph&quot;&gt;Paragraph&lt;&#x2F;h2&gt;
+&lt;p&gt;Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.&lt;&#x2F;p&gt;
+&lt;p&gt;Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;blockquotes&quot;&gt;Blockquotes&lt;&#x2F;h2&gt;
+&lt;p&gt;The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a &lt;code&gt;footer&lt;&#x2F;code&gt; or &lt;code&gt;cite&lt;&#x2F;code&gt; element, and optionally with in-line changes such as annotations and abbreviations.&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;blockquote-without-attribution&quot;&gt;Blockquote without attribution&lt;&#x2F;h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Tiam, ad mint andaepu dandae nostion secatur sequo quae.
+&lt;strong&gt;Note&lt;&#x2F;strong&gt; that you can use &lt;em&gt;Markdown syntax&lt;&#x2F;em&gt; within a blockquote.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h4 id=&quot;blockquote-with-attribution&quot;&gt;Blockquote with attribution&lt;&#x2F;h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Don&#x27;t communicate by sharing memory, share memory by communicating.&lt;&#x2F;p&gt;
+&lt;cite&gt;— Rob Pike&lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#1&quot;&gt;1&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;&lt;&#x2F;cite&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;1&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;1&lt;&#x2F;sup&gt;
+&lt;p&gt;The above quote is excerpted from Rob Pike&#x27;s &lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=PAAkCSZUG1c&quot;&gt;talk&lt;&#x2F;a&gt; during Gopherfest, November 18, 2015.&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;h2 id=&quot;tables&quot;&gt;Tables&lt;&#x2F;h2&gt;
+&lt;p&gt;Tables aren&#x27;t part of the core Markdown spec, but Hugo supports supports them out-of-the-box.&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Name&lt;&#x2F;th&gt;&lt;th&gt;Age&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;Bob&lt;&#x2F;td&gt;&lt;td&gt;27&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Alice&lt;&#x2F;td&gt;&lt;td&gt;23&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;h4 id=&quot;inline-markdown-within-tables&quot;&gt;Inline Markdown within tables&lt;&#x2F;h4&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Inline   &lt;&#x2F;th&gt;&lt;th&gt;Markdown   &lt;&#x2F;th&gt;&lt;th&gt;In   &lt;&#x2F;th&gt;&lt;th&gt;Table&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;&lt;em&gt;italics&lt;&#x2F;em&gt;&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;bold&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;&lt;del&gt;strikethrough&lt;&#x2F;del&gt;   &lt;&#x2F;td&gt;&lt;td&gt;&lt;code&gt;code&lt;&#x2F;code&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;h2 id=&quot;code-blocks&quot;&gt;Code Blocks&lt;&#x2F;h2&gt;
+&lt;h4 id=&quot;code-block-with-backticks&quot;&gt;Code block with backticks&lt;&#x2F;h4&gt;
+&lt;pre style=&quot;background-color:#2b303b;&quot;&gt;
+&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&amp;lt;!&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;DOCTYPE &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;html&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&amp;gt;
+&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;html &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;lang&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;en&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&amp;quot;&amp;gt;
+&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;head&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&amp;gt;
+  &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;meta &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;charset&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;UTF-8&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&amp;quot;&amp;gt;
+  &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;title&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&amp;gt;Example HTML5 Document&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;title&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&amp;gt;
+&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;head&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&amp;gt;
+&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;body&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&amp;gt;
+  &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;p&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&amp;gt;Test&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;p&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&amp;gt;
+&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;body&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&amp;gt;
+&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;html&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;&lt;h4 id=&quot;code-block-indented-with-four-spaces&quot;&gt;Code block indented with four spaces&lt;&#x2F;h4&gt;
+&lt;pre style=&quot;background-color:#2b303b;&quot;&gt;
+&lt;code&gt;&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;html lang=&amp;quot;en&amp;quot;&amp;gt;
+&amp;lt;head&amp;gt;
+  &amp;lt;meta charset=&amp;quot;UTF-8&amp;quot;&amp;gt;
+  &amp;lt;title&amp;gt;Example HTML5 Document&amp;lt;&#x2F;title&amp;gt;
+&amp;lt;&#x2F;head&amp;gt;
+&amp;lt;body&amp;gt;
+  &amp;lt;p&amp;gt;Test&amp;lt;&#x2F;p&amp;gt;
+&amp;lt;&#x2F;body&amp;gt;
+&amp;lt;&#x2F;html&amp;gt;
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;&lt;h2 id=&quot;list-types&quot;&gt;List Types&lt;&#x2F;h2&gt;
+&lt;h4 id=&quot;ordered-list&quot;&gt;Ordered List&lt;&#x2F;h4&gt;
+&lt;ol&gt;
+&lt;li&gt;First item&lt;&#x2F;li&gt;
+&lt;li&gt;Second item&lt;&#x2F;li&gt;
+&lt;li&gt;Third item&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;h4 id=&quot;unordered-list&quot;&gt;Unordered List&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;List item&lt;&#x2F;li&gt;
+&lt;li&gt;Another item&lt;&#x2F;li&gt;
+&lt;li&gt;And another item&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h4 id=&quot;nested-list&quot;&gt;Nested list&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Item
+&lt;ol&gt;
+&lt;li&gt;First Sub-item&lt;&#x2F;li&gt;
+&lt;li&gt;Second Sub-item&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Item
+&lt;ul&gt;
+&lt;li&gt;A&lt;&#x2F;li&gt;
+&lt;li&gt;B&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;other-elements-abbr-sub-sup-kbd-mark&quot;&gt;Other Elements — abbr, sub, sup, kbd, mark&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;abbr title=&quot;Graphics Interchange Format&quot;&gt;GIF&lt;&#x2F;abbr&gt; is a bitmap image format.&lt;&#x2F;p&gt;
+&lt;p&gt;H&lt;sub&gt;2&lt;&#x2F;sub&gt;O&lt;&#x2F;p&gt;
+&lt;p&gt;X&lt;sup&gt;n&lt;&#x2F;sup&gt; + Y&lt;sup&gt;n&lt;&#x2F;sup&gt; = Z&lt;sup&gt;n&lt;&#x2F;sup&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Press &lt;kbd&gt;&lt;kbd&gt;CTRL&lt;&#x2F;kbd&gt;+&lt;kbd&gt;ALT&lt;&#x2F;kbd&gt;+&lt;kbd&gt;Delete&lt;&#x2F;kbd&gt;&lt;&#x2F;kbd&gt; to end the session.&lt;&#x2F;p&gt;
+&lt;p&gt;Most &lt;mark&gt;salamanders&lt;&#x2F;mark&gt; are nocturnal, and hunt for insects, worms, and other small creatures.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;mathjax&quot;&gt;mathjax&lt;&#x2F;h2&gt;
+&lt;p&gt;Inline LaTeX can be done $a^2 + b^2 = c^2$ like that (code for inline expression: &lt;code&gt;$a^2 + b^2 = c^2$ &lt;&#x2F;code&gt;).&lt;&#x2F;p&gt;
+&lt;p&gt;Block of equations:&lt;&#x2F;p&gt;
+&lt;p&gt;$$
+\displaylines{x = a + b \\ y = b + c}
+$$&lt;&#x2F;p&gt;
+&lt;p&gt;Code:&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;&quot;&gt;
+&lt;code class=&quot;language-latex&quot; data-lang=&quot;latex&quot;&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;$$
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;\displaylines&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;{&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;x &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;a &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;+ &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;b &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;\\\\ &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;y &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;b &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;+ &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;c&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;}
+$$
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Proof tree block:&lt;&#x2F;p&gt;
+&lt;p&gt;$$
+\require{bussproofs}
+\begin{prooftree}
+\AxiomC{A}
+\AxiomC{B}
+\BinaryInfC{D}
+\end{prooftree}
+$$&lt;&#x2F;p&gt;
+&lt;p&gt;Code:&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;&quot;&gt;
+&lt;code class=&quot;language-latex&quot; data-lang=&quot;latex&quot;&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;$$
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;\require&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;{&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;bussproofs&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;}
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;\begin&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;{prooftree}
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;\AxiomC&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;{&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;A&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;}
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;\AxiomC&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;{&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;B&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;}
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;\BinaryInfC&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;{&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;D&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;}
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;\end&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;{prooftree}
+$$
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;</content>
+	</entry>
+</feed>
