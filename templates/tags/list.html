@@ -1,0 +1,21 @@
+{% extends "basic.html" %}
+
+{% block content %}
+<article class="post animated fadeInDown">
+  
+  <div class="list-with-title">
+    <div class="post-buffer">
+      <h1>{{ trans(key="tags") }}</h1>
+      <ul class="listing">
+          {% for term in terms %}
+          <li class="tag-list-item">
+              <a class="tagname" href="{{ get_url(path="@/_index.md") }}tags/{{ term.name }}">{{ term.name }}</a>
+              <span class="tagcount">{{ term.pages | length }}</span>
+          </li>
+          {% endfor %}
+      </ul>
+    </div>
+  </div>
+  
+</article>
+{% endblock content %}

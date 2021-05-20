@@ -1,0 +1,47 @@
+{% extends "basic.html" %}
+
+{% block title %}{{ config.title }} • {{ page.title }}{% endblock title %}
+
+{% block content %}
+<article class="post animated fadeInDown">
+  <div class="post-buffer">
+  <h1><a href="{{ page.permalink }}">{{ page.title }}</a></h1>
+  <div class="post-content">{{ page.content | safe }}</div>
+  <div class="post-footer">
+    <div class="meta">
+      <div class="info">
+        {% if page.date %}
+          <i class="far fa-sun"></i><span class="date">{{ page.date | date(format="%Y-%m-%d") }}</span>
+        {% endif %}
+        {% if page.taxonomies.tags %}
+          <i class="fas fa-tags"></i>
+          {% for tag in page.taxonomies.tags %}
+            <a class="tag" href="{{ get_url(path="@/_index.md") }}tags/{{tag}}">&nbsp;{{tag}}</a>
+          {% endfor %}
+        {% endif %}
+      </div>
+    </div>
+  </div>
+  </div>
+</article>
+<div class="share">
+  <div class="twitter">
+    <a class="fab fa-twitter" href="http://twitter.com/share?text={{ page.title }}&url={{ page.permalink | trim_end_matches(pat="/") }}{% if page.taxonomies.tags %}&hashtags={{ page.taxonomies.tags | join(sep=",") }}{% endif %}"></a>
+  </div>
+</div>
+{% include "comments.html" %}
+{% if page.extra.mathjax %}
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script>
+  MathJax = {
+    tex: {
+      displayMath: [['$$', '$$'], ["\\[", "\\]"]],
+      inlineMath: [['$', '$'], ['\\(', '\\)']]
+    }
+  };
+</script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/{{ page.extra.mathjax }}-chtml.js">
+</script>
+  {% endif %}
+{% endblock content %}

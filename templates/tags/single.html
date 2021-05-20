@@ -1,0 +1,22 @@
+{% extends "basic.html" %}
+
+{% block content %}
+<article class="post animated fadeInDown">
+
+  <div class="list-with-title">
+    <div class="post-buffer">
+      <h1>{{ term.name }}</h1>
+      <ul class="listing">
+        {% for post in term.pages %}
+        <div class="listing-item">
+          <div class="listing-post">
+            <a href="{{ post.permalink }}" title="{{ post.title }}">{{ post.title }}</a>
+            <div class="post-time"><span class="date">{{ post.date | date(format="%b %d, %Y") }}</span></div>
+          </div>
+        </div>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</article>
+{% endblock content %}

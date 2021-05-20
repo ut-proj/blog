@@ -1,6 +1,6 @@
 +++
 title = "New Twitter Account"
-template = "page.html"
+template = "post.html"
 date = 2020-11-28T15:00:00Z
 
 [taxonomies]

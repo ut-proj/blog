@@ -1,6 +1,6 @@
 +++
 title = "Basic Markdown syntax"
-template = "page.html"
+template = "post.html"
 date = 2020-09-09T00:00:00Z
 
 [taxonomies]
@@ -42,7 +42,7 @@ The blockquote element represents content that is quoted from another source, op
 #### Blockquote with attribution
 
 > Don't communicate by sharing memory, share memory by communicating.</p>
-> — <cite>Rob Pike[^1]</cite>
+> <cite>— Rob Pike[^1]</cite>
 
 [^1]: The above quote is excerpted from Rob Pike's [talk](https://www.youtube.com/watch?v=PAAkCSZUG1c) during Gopherfest, November 18, 2015.
 
@@ -127,9 +127,23 @@ Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and ot
 
 ## mathjax
 
+Inline LaTeX can be done $a^2 + b^2 = c^2$ like that (code for inline expression: `$a^2 + b^2 = c^2$ `).
+
+Block of equations:
+
 $$
 \displaylines{x = a + b \\\\ y = b + c}
 $$
+
+Code:
+
+``` latex
+$$
+\displaylines{x = a + b \\\\ y = b + c}
+$$
+```
+
+Proof tree block:
 
 $$
 \require{bussproofs}
@@ -139,3 +153,18 @@ $$
 \BinaryInfC{D}
 \end{prooftree}
 $$
+
+
+Code:
+
+``` latex
+$$
+\require{bussproofs}
+\begin{prooftree}
+\AxiomC{A}
+\AxiomC{B}
+\BinaryInfC{D}
+\end{prooftree}
+$$
+```
+

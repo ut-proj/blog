@@ -1,6 +1,6 @@
 +++
 title = "Publishing to Soundcloud"
-template = "page.html"
+template = "post.html"
 date = 2021-02-27T05:00:00Z
 
 [taxonomies]

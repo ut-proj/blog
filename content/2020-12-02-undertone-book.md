@@ -1,6 +1,6 @@
 +++
 title = "An undertone Book"
-template = "page.html"
+template = "post.html"
 date = 2020-12-02T06:00:00Z
 
 [taxonomies]

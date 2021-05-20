@@ -1,6 +1,6 @@
 +++
 title = "The Project Begins"
-template = "page.html"
+template = "post.html"
 date = 2020-09-10T00:00:00Z
 
 [taxonomies]
