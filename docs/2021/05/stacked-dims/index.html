@@ -62,6 +62,27 @@
   <div class="autopagerize_page_element">
     <div class="content">
     
+
+
+
+<div id="osmd-container"></div>
+<script src="../js/opensheetmusicdisplay.min.js"></script>
+<script>
+  var osmd = new opensheetmusicdisplay.OpenSheetMusicDisplay("osmd-container");
+  osmd.setOptions({
+    backend: "svg",
+    drawingParameters: "compacttight"
+  });
+  osmd
+    .load("../scores/bach-intervals/stacked-dims.xml")
+    .then(
+      function() {
+        osmd.render();
+      }
+    );
+</script>
+
+
 <article class="post animated fadeInDown">
   <div class="post-buffer">
   <h1><a href="https:&#x2F;&#x2F;undertone.lfe.io&#x2F;blog&#x2F;2021&#x2F;05&#x2F;stacked-dims&#x2F;">Exploring intervals &amp; diminished chords ... and a Bach discovery</a></h1>
