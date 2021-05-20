@@ -2,6 +2,7 @@
 title = "Basic Markdown syntax"
 template = "post.html"
 date = 2020-09-09T00:00:00Z
+slug = "help/markdown"
 
 [taxonomies]
 tags = ["reference", "meta"]

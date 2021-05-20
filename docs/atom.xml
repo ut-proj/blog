@@ -78,8 +78,8 @@
 		<title>Version 0.3.0 Released</title>
 		<published>2021-02-20T23:00:08+00:00</published>
 		<updated>2021-02-20T23:00:08+00:00</updated>
-		<link href="https://undertone.lfe.io/blog/release-0-3-0/" type="text/html"/>
-		<id>https://undertone.lfe.io/blog/release-0-3-0/</id>
+		<link href="https://undertone.lfe.io/blog/release-0.3.0/" type="text/html"/>
+		<id>https://undertone.lfe.io/blog/release-0.3.0/</id>
 		<content type="html">&lt;h2 id=&quot;new-release&quot;&gt;New Release&lt;&#x2F;h2&gt;
 &lt;p&gt;Version 0.3.0 of undertone has been released.&lt;&#x2F;p&gt;
 &lt;p&gt;Releases are available &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;ut-proj&#x2F;undertone&#x2F;tags&quot;&gt;here&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
@@ -142,12 +142,20 @@
 		<content type="html"></content>
 	</entry>
 	<entry xml:lang="en">
-		<title>LambdaDays: Teaser Video</title>
+		<title>Lambda Days: Teaser Video</title>
 		<published>2021-01-05T02:00:00+00:00</published>
 		<updated>2021-01-05T02:00:00+00:00</updated>
-		<link href="https://undertone.lfe.io/blog/teaser-video/" type="text/html"/>
-		<id>https://undertone.lfe.io/blog/teaser-video/</id>
-		<content type="html"></content>
+		<link href="https://undertone.lfe.io/blog/2021/01/teaser-video/" type="text/html"/>
+		<id>https://undertone.lfe.io/blog/2021/01/teaser-video/</id>
+		<content type="html">&lt;p&gt;For a forthcoming talk at Lambda Days, a teaser video was recorded and put to music created by undertone; today, it has been announced by the conference here:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;LambdaDays&#x2F;status&#x2F;1346401873931198464&quot;&gt;twitter.com&#x2F;LambdaDays&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;A hi-res version is availabel on YouTube here:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=cfpAsvHW2i4&quot;&gt;youtu.be&#x2F;cfpAsvHW2i4&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
 	</entry>
 	<entry xml:lang="en">
 		<title>New Instagram Account</title>
@@ -163,8 +171,8 @@
 		<title>Version 0.2.0 Released</title>
 		<published>2020-12-10T23:00:08+00:00</published>
 		<updated>2020-12-10T23:00:08+00:00</updated>
-		<link href="https://undertone.lfe.io/blog/release-0-2-0/" type="text/html"/>
-		<id>https://undertone.lfe.io/blog/release-0-2-0/</id>
+		<link href="https://undertone.lfe.io/blog/release-0.2.0/" type="text/html"/>
+		<id>https://undertone.lfe.io/blog/release-0.2.0/</id>
 		<content type="html">&lt;h2 id=&quot;new-release&quot;&gt;New Release&lt;&#x2F;h2&gt;
 &lt;p&gt;Version 0.2.0 of undertone has been released.&lt;&#x2F;p&gt;
 &lt;p&gt;Releases are available &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;ut-proj&#x2F;undertone&#x2F;tags&quot;&gt;here&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
@@ -189,8 +197,8 @@
 		<title>Version 0.1.0 Released</title>
 		<published>2020-11-28T23:00:08+00:00</published>
 		<updated>2020-11-28T23:00:08+00:00</updated>
-		<link href="https://undertone.lfe.io/blog/2020-11-28b-release-0-1-0/" type="text/html"/>
-		<id>https://undertone.lfe.io/blog/2020-11-28b-release-0-1-0/</id>
+		<link href="https://undertone.lfe.io/blog/2020-11-28b-release-0.1.0/" type="text/html"/>
+		<id>https://undertone.lfe.io/blog/2020-11-28b-release-0.1.0/</id>
 		<content type="html">&lt;h2 id=&quot;first-release&quot;&gt;First Release&lt;&#x2F;h2&gt;
 &lt;p&gt;Version 0.1.0 of undertone has been released.&lt;&#x2F;p&gt;
 &lt;p&gt;Releases are available &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;ut-proj&#x2F;undertone&#x2F;tags&quot;&gt;here&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
@@ -219,8 +227,8 @@
 		<title>Basic Markdown syntax</title>
 		<published>2020-09-09T00:00:00+00:00</published>
 		<updated>2020-09-09T00:00:00+00:00</updated>
-		<link href="https://undertone.lfe.io/blog/00-help-markdown/" type="text/html"/>
-		<id>https://undertone.lfe.io/blog/00-help-markdown/</id>
+		<link href="https://undertone.lfe.io/blog/help/markdown/" type="text/html"/>
+		<id>https://undertone.lfe.io/blog/help/markdown/</id>
 		<content type="html">&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h2 id=&quot;headings&quot;&gt;Headings&lt;&#x2F;h2&gt;
 &lt;p&gt;The following HTML &lt;code&gt;&amp;lt;h1&amp;gt;&lt;&#x2F;code&gt;—&lt;code&gt;&amp;lt;h6&amp;gt;&lt;&#x2F;code&gt; elements represent six levels of section headings. &lt;code&gt;&amp;lt;h1&amp;gt;&lt;&#x2F;code&gt; is the highest section level while &lt;code&gt;&amp;lt;h6&amp;gt;&lt;&#x2F;code&gt; is the lowest.&lt;&#x2F;p&gt;
 &lt;h1 id=&quot;h1&quot;&gt;H1&lt;&#x2F;h1&gt;

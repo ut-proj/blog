@@ -10,4 +10,6 @@ publish: build
 	@git push origin main
 
 run:
-	@zola serve --output-dir=$(BUILD_DIR)
+	zola serve \
+	--output-dir=$(BUILD_DIR) \
+	--drafts

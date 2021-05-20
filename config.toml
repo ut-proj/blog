@@ -9,6 +9,14 @@ taxonomies = [
   {name = "tags"},
 ]
 
+[markdown]
+highlight_code = true
+
+[slugify]
+paths = "off"
+taxonomies = "on"
+anchors = "on"
+
 [translations.en]
 about = "About"
 home = "Home"
@@ -18,13 +26,13 @@ links = "Links"
 next_page = "Older"
 last_page = "Newer"
 
-[markdown]
-highlight_code = true
-
 [extra]
 
 [extra.content]
 page_excerpts_enabled = false
+
+[extra.flatio]
+app_id = "60a50e3db361363d9d745231"
 
 [extra.show]
 tags = true

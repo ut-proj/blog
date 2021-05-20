@@ -1,7 +1,9 @@
 +++
 title = "The Project Begins"
+description = "Announcing undertone"
 template = "post.html"
 date = 2020-09-10T00:00:00Z
+slug = "2020/09/announcing-undertone"
 
 [taxonomies]
 tags = ["project", "github", "news"]

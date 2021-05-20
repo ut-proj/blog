@@ -10,7 +10,9 @@
         <div class="post-content">
               <p class="slug">
                 {% if page.extra.summary %}
-                    <span class="summary">{{ page.extra.summary | safe | striptags }}</span>
+                <span class="summary">{{ page.extra.summary | safe | striptags }}</span>
+                {% elif page.description %}
+                <span class="summary">{{ page.description | safe | striptags }}</span>
                 {% else %}
                     {% if config.extra.content.page_excerpts_enabled %}
                     <span class="excerpt">{{ page.content | safe | striptags | truncate(length=100) }}</span>
