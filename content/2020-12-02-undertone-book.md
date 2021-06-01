@@ -2,6 +2,7 @@
 title = "An undertone Book"
 template = "post.html"
 date = 2020-12-02T06:00:00Z
+slug = "2020/12/undertone-book"
 
 [taxonomies]
 tags = ["reference", "docs", "news", "books"]

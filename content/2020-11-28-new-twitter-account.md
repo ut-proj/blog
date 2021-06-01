@@ -2,6 +2,7 @@
 title = "New Twitter Account"
 template = "post.html"
 date = 2020-11-28T15:00:00Z
+slug = "2020/11/twitter"
 
 [taxonomies]
 tags = ["social", "news"]

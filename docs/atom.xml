@@ -11,64 +11,66 @@
 		<title>Music scores in the browser</title>
 		<published>2021-05-19T23:00:00+00:00</published>
 		<updated>2021-05-19T23:00:00+00:00</updated>
-		<link href="https://undertone.lfe.io/blog/scores-in-browser/" type="text/html"/>
-		<id>https://undertone.lfe.io/blog/scores-in-browser/</id>
-		<content type="html"></content>
+		<link href="https://undertone.lfe.io/blog/2021/05/scores-in-browser/" type="text/html"/>
+		<id>https://undertone.lfe.io/blog/2021/05/scores-in-browser/</id>
+		<content type="html">&lt;p&gt;TBD&lt;&#x2F;p&gt;
+</content>
 	</entry>
 	<entry xml:lang="en">
 		<title>Exploring intervals &amp; diminished chords ... and a Bach discovery</title>
 		<published>2021-05-17T23:00:00+00:00</published>
 		<updated>2021-05-17T23:00:00+00:00</updated>
-		<link href="https://undertone.lfe.io/blog/bach-intervals/" type="text/html"/>
-		<id>https://undertone.lfe.io/blog/bach-intervals/</id>
-		<content type="html"></content>
+		<link href="https://undertone.lfe.io/blog/2021/05/stacked-dims/" type="text/html"/>
+		<id>https://undertone.lfe.io/blog/2021/05/stacked-dims/</id>
+		<content type="html">&lt;p&gt;TBD&lt;&#x2F;p&gt;
+</content>
 	</entry>
 	<entry xml:lang="en">
 		<title>LispNYC: Erlang Music Systems Programming in Lisp</title>
 		<published>2021-05-11T02:00:00+00:00</published>
 		<updated>2021-05-11T02:00:00+00:00</updated>
-		<link href="https://undertone.lfe.io/blog/lispnyc-talk/" type="text/html"/>
-		<id>https://undertone.lfe.io/blog/lispnyc-talk/</id>
+		<link href="https://undertone.lfe.io/blog/2021/05/lispnyc/" type="text/html"/>
+		<id>https://undertone.lfe.io/blog/2021/05/lispnyc/</id>
 		<content type="html"></content>
 	</entry>
 	<entry xml:lang="en">
 		<title>Code Craft Glasgow: Making Music with Software</title>
 		<published>2021-03-18T02:00:00+00:00</published>
 		<updated>2021-03-18T02:00:00+00:00</updated>
-		<link href="https://undertone.lfe.io/blog/codecraft-glasgow/" type="text/html"/>
-		<id>https://undertone.lfe.io/blog/codecraft-glasgow/</id>
+		<link href="https://undertone.lfe.io/blog/2021/03/codecraft-glasgow/" type="text/html"/>
+		<id>https://undertone.lfe.io/blog/2021/03/codecraft-glasgow/</id>
 		<content type="html"></content>
 	</entry>
 	<entry xml:lang="en">
 		<title>Chord sequences in undertone</title>
 		<published>2021-03-15T02:00:00+00:00</published>
 		<updated>2021-03-15T02:00:00+00:00</updated>
-		<link href="https://undertone.lfe.io/blog/chords/" type="text/html"/>
-		<id>https://undertone.lfe.io/blog/chords/</id>
+		<link href="https://undertone.lfe.io/blog/2021/03/undertone-chords/" type="text/html"/>
+		<id>https://undertone.lfe.io/blog/2021/03/undertone-chords/</id>
 		<content type="html"></content>
 	</entry>
 	<entry xml:lang="en">
 		<title>CodeBEAM America: Sound on BEAM II</title>
 		<published>2021-03-10T02:00:00+00:00</published>
 		<updated>2021-03-10T02:00:00+00:00</updated>
-		<link href="https://undertone.lfe.io/blog/codebeam-talk/" type="text/html"/>
-		<id>https://undertone.lfe.io/blog/codebeam-talk/</id>
+		<link href="https://undertone.lfe.io/blog/2021/03/codebeam-america/" type="text/html"/>
+		<id>https://undertone.lfe.io/blog/2021/03/codebeam-america/</id>
 		<content type="html"></content>
 	</entry>
 	<entry xml:lang="en">
 		<title>CodeBEAM America: Teaser Video</title>
 		<published>2021-03-03T02:00:00+00:00</published>
 		<updated>2021-03-03T02:00:00+00:00</updated>
-		<link href="https://undertone.lfe.io/blog/teaser-video-2/" type="text/html"/>
-		<id>https://undertone.lfe.io/blog/teaser-video-2/</id>
+		<link href="https://undertone.lfe.io/blog/2021/03/teaser-video/" type="text/html"/>
+		<id>https://undertone.lfe.io/blog/2021/03/teaser-video/</id>
 		<content type="html"></content>
 	</entry>
 	<entry xml:lang="en">
 		<title>Publishing to Soundcloud</title>
 		<published>2021-02-27T05:00:00+00:00</published>
 		<updated>2021-02-27T05:00:00+00:00</updated>
-		<link href="https://undertone.lfe.io/blog/soundcloud/" type="text/html"/>
-		<id>https://undertone.lfe.io/blog/soundcloud/</id>
+		<link href="https://undertone.lfe.io/blog/2021/02/soundcloud/" type="text/html"/>
+		<id>https://undertone.lfe.io/blog/2021/02/soundcloud/</id>
 		<content type="html">&lt;p&gt;Well, I&#x27;ve started doing it: &lt;a href=&quot;https:&#x2F;&#x2F;soundcloud.com&#x2F;oubiwann&#x2F;tracks&quot;&gt;publishing to soundcloud&lt;&#x2F;a&gt;. Mostly, this is thanks to all the wonderful support from the Erlang&#x2F;BEAM community for their positive feedback on various talks and demos I&#x27;ve given around Extempore and undertone.&lt;&#x2F;p&gt;
 &lt;p&gt;More tracks will be published in the future, as they are created.&lt;&#x2F;p&gt;
 &lt;p&gt;Also, note that I&#x27;m creating musical content under the name &lt;a href=&quot;https:&#x2F;&#x2F;soundcloud.com&#x2F;forgotten-tones&#x2F;tracks&quot;&gt;Forgotten Tones&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
@@ -78,8 +80,8 @@
 		<title>Version 0.3.0 Released</title>
 		<published>2021-02-20T23:00:08+00:00</published>
 		<updated>2021-02-20T23:00:08+00:00</updated>
-		<link href="https://undertone.lfe.io/blog/release-0.3.0/" type="text/html"/>
-		<id>https://undertone.lfe.io/blog/release-0.3.0/</id>
+		<link href="https://undertone.lfe.io/blog/2021/02/release-0.3.0/" type="text/html"/>
+		<id>https://undertone.lfe.io/blog/2021/02/release-0.3.0/</id>
 		<content type="html">&lt;h2 id=&quot;new-release&quot;&gt;New Release&lt;&#x2F;h2&gt;
 &lt;p&gt;Version 0.3.0 of undertone has been released.&lt;&#x2F;p&gt;
 &lt;p&gt;Releases are available &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;ut-proj&#x2F;undertone&#x2F;tags&quot;&gt;here&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
@@ -89,57 +91,58 @@
 		<title>Getting started in generative music</title>
 		<published>2021-02-19T02:00:00+00:00</published>
 		<updated>2021-02-19T02:00:00+00:00</updated>
-		<link href="https://undertone.lfe.io/blog/starting-gen-music/" type="text/html"/>
-		<id>https://undertone.lfe.io/blog/starting-gen-music/</id>
+		<link href="https://undertone.lfe.io/blog/2021/02/starting-generative-music/" type="text/html"/>
+		<id>https://undertone.lfe.io/blog/2021/02/starting-generative-music/</id>
 		<content type="html"></content>
 	</entry>
 	<entry xml:lang="en">
 		<title>Lambda Days: Sound on BEAM I</title>
 		<published>2021-02-18T02:00:00+00:00</published>
 		<updated>2021-02-18T02:00:00+00:00</updated>
-		<link href="https://undertone.lfe.io/blog/lambda-days/" type="text/html"/>
-		<id>https://undertone.lfe.io/blog/lambda-days/</id>
+		<link href="https://undertone.lfe.io/blog/2021/02/lambda-days/" type="text/html"/>
+		<id>https://undertone.lfe.io/blog/2021/02/lambda-days/</id>
 		<content type="html"></content>
 	</entry>
 	<entry xml:lang="en">
 		<title>DFW BEAMers undertone Demo</title>
 		<published>2021-02-14T02:00:00+00:00</published>
 		<updated>2021-02-14T02:00:00+00:00</updated>
-		<link href="https://undertone.lfe.io/blog/dfw-beamers-demo/" type="text/html"/>
-		<id>https://undertone.lfe.io/blog/dfw-beamers-demo/</id>
+		<link href="https://undertone.lfe.io/blog/2021/02/dfw-beamers-demo/" type="text/html"/>
+		<id>https://undertone.lfe.io/blog/2021/02/dfw-beamers-demo/</id>
 		<content type="html"></content>
 	</entry>
 	<entry xml:lang="en">
 		<title>Behringer Model D</title>
 		<published>2021-02-04T02:00:00+00:00</published>
 		<updated>2021-02-04T02:00:00+00:00</updated>
-		<link href="https://undertone.lfe.io/blog/model-d/" type="text/html"/>
-		<id>https://undertone.lfe.io/blog/model-d/</id>
+		<link href="https://undertone.lfe.io/blog/2021/02/behringer-model-d/" type="text/html"/>
+		<id>https://undertone.lfe.io/blog/2021/02/behringer-model-d/</id>
 		<content type="html"></content>
 	</entry>
 	<entry xml:lang="en">
 		<title>DFW BEAMers: Introducing undertone</title>
 		<published>2021-02-03T02:00:00+00:00</published>
 		<updated>2021-02-03T02:00:00+00:00</updated>
-		<link href="https://undertone.lfe.io/blog/dfw-beamers/" type="text/html"/>
-		<id>https://undertone.lfe.io/blog/dfw-beamers/</id>
+		<link href="https://undertone.lfe.io/blog/2021/02/dfw-beamers-talk/" type="text/html"/>
+		<id>https://undertone.lfe.io/blog/2021/02/dfw-beamers-talk/</id>
 		<content type="html"></content>
 	</entry>
 	<entry xml:lang="en">
 		<title>VCV Rack: Free SW Modular Synth?!</title>
 		<published>2021-01-25T02:00:00+00:00</published>
 		<updated>2021-01-25T02:00:00+00:00</updated>
-		<link href="https://undertone.lfe.io/blog/vcv-rack/" type="text/html"/>
-		<id>https://undertone.lfe.io/blog/vcv-rack/</id>
+		<link href="https://undertone.lfe.io/blog/2021/01/vcv-rack/" type="text/html"/>
+		<id>https://undertone.lfe.io/blog/2021/01/vcv-rack/</id>
 		<content type="html"></content>
 	</entry>
 	<entry xml:lang="en">
 		<title>Teaser video audio: full track</title>
 		<published>2021-01-20T02:00:00+00:00</published>
 		<updated>2021-01-20T02:00:00+00:00</updated>
-		<link href="https://undertone.lfe.io/blog/full-track/" type="text/html"/>
-		<id>https://undertone.lfe.io/blog/full-track/</id>
-		<content type="html"></content>
+		<link href="https://undertone.lfe.io/blog/2021/01/teaser-audio-track/" type="text/html"/>
+		<id>https://undertone.lfe.io/blog/2021/01/teaser-audio-track/</id>
+		<content type="html">&lt;p&gt;In the &lt;a href=&quot;https:&#x2F;&#x2F;undertone.lfe.io&#x2F;blog&#x2F;2021&#x2F;01&#x2F;teaser-audio-track&#x2F;thing&quot;&gt;previous post&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
 	</entry>
 	<entry xml:lang="en">
 		<title>Lambda Days: Teaser Video</title>
@@ -161,8 +164,8 @@
 		<title>New Instagram Account</title>
 		<published>2020-12-14T15:00:00+00:00</published>
 		<updated>2020-12-14T15:00:00+00:00</updated>
-		<link href="https://undertone.lfe.io/blog/new-instagram-account/" type="text/html"/>
-		<id>https://undertone.lfe.io/blog/new-instagram-account/</id>
+		<link href="https://undertone.lfe.io/blog/2020/12/instagram/" type="text/html"/>
+		<id>https://undertone.lfe.io/blog/2020/12/instagram/</id>
 		<content type="html">&lt;p&gt;The undertone project has a new Instagram account: &lt;a href=&quot;https:&#x2F;&#x2F;www.instagram.com&#x2F;lfeundertone&#x2F;&quot;&gt;instagram.com&#x2F;lfeundertone&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
 &lt;p&gt;More to come ...&lt;&#x2F;p&gt;
 </content>
@@ -171,8 +174,8 @@
 		<title>Version 0.2.0 Released</title>
 		<published>2020-12-10T23:00:08+00:00</published>
 		<updated>2020-12-10T23:00:08+00:00</updated>
-		<link href="https://undertone.lfe.io/blog/release-0.2.0/" type="text/html"/>
-		<id>https://undertone.lfe.io/blog/release-0.2.0/</id>
+		<link href="https://undertone.lfe.io/blog/2020/12/release-0.2.0/" type="text/html"/>
+		<id>https://undertone.lfe.io/blog/2020/12/release-0.2.0/</id>
 		<content type="html">&lt;h2 id=&quot;new-release&quot;&gt;New Release&lt;&#x2F;h2&gt;
 &lt;p&gt;Version 0.2.0 of undertone has been released.&lt;&#x2F;p&gt;
 &lt;p&gt;Releases are available &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;ut-proj&#x2F;undertone&#x2F;tags&quot;&gt;here&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
@@ -182,8 +185,8 @@
 		<title>An undertone Book</title>
 		<published>2020-12-02T06:00:00+00:00</published>
 		<updated>2020-12-02T06:00:00+00:00</updated>
-		<link href="https://undertone.lfe.io/blog/undertone-book/" type="text/html"/>
-		<id>https://undertone.lfe.io/blog/undertone-book/</id>
+		<link href="https://undertone.lfe.io/blog/2020/12/undertone-book/" type="text/html"/>
+		<id>https://undertone.lfe.io/blog/2020/12/undertone-book/</id>
 		<content type="html">&lt;p&gt;There&#x27;s a new project focused on the creation of music with undertone, with aims of not only documenting the use of Extempore and undertone, but also the exploration of tones, music theory, and composition using undertone.&lt;&#x2F;p&gt;
 &lt;p&gt;Links:&lt;&#x2F;p&gt;
 &lt;ul&gt;
@@ -197,8 +200,8 @@
 		<title>Version 0.1.0 Released</title>
 		<published>2020-11-28T23:00:08+00:00</published>
 		<updated>2020-11-28T23:00:08+00:00</updated>
-		<link href="https://undertone.lfe.io/blog/2020-11-28b-release-0.1.0/" type="text/html"/>
-		<id>https://undertone.lfe.io/blog/2020-11-28b-release-0.1.0/</id>
+		<link href="https://undertone.lfe.io/blog/2020/11/release-0.1.0/" type="text/html"/>
+		<id>https://undertone.lfe.io/blog/2020/11/release-0.1.0/</id>
 		<content type="html">&lt;h2 id=&quot;first-release&quot;&gt;First Release&lt;&#x2F;h2&gt;
 &lt;p&gt;Version 0.1.0 of undertone has been released.&lt;&#x2F;p&gt;
 &lt;p&gt;Releases are available &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;ut-proj&#x2F;undertone&#x2F;tags&quot;&gt;here&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
@@ -208,8 +211,8 @@
 		<title>New Twitter Account</title>
 		<published>2020-11-28T15:00:00+00:00</published>
 		<updated>2020-11-28T15:00:00+00:00</updated>
-		<link href="https://undertone.lfe.io/blog/new-twitter-account/" type="text/html"/>
-		<id>https://undertone.lfe.io/blog/new-twitter-account/</id>
+		<link href="https://undertone.lfe.io/blog/2020/11/twitter/" type="text/html"/>
+		<id>https://undertone.lfe.io/blog/2020/11/twitter/</id>
 		<content type="html">&lt;p&gt;The undertone project has a new Twitter account: &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;lfeundertone&quot;&gt;twitter.com&#x2F;lfeundertone&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
 &lt;p&gt;More to come ...&lt;&#x2F;p&gt;
 </content>
@@ -218,8 +221,8 @@
 		<title>The Project Begins</title>
 		<published>2020-09-10T00:00:00+00:00</published>
 		<updated>2020-09-10T00:00:00+00:00</updated>
-		<link href="https://undertone.lfe.io/blog/project-start/" type="text/html"/>
-		<id>https://undertone.lfe.io/blog/project-start/</id>
+		<link href="https://undertone.lfe.io/blog/2020/09/announcing-undertone/" type="text/html"/>
+		<id>https://undertone.lfe.io/blog/2020/09/announcing-undertone/</id>
 		<content type="html">&lt;p&gt;There&#x27;s a new Github org for undertone at &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;ut-proj&quot;&gt;github.com&#x2F;ut-proj&lt;&#x2F;a&gt;. The undertone project proper is at &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;ut-proj&#x2F;undertone&quot;&gt;github.com&#x2F;ut-proj&#x2F;undertone&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
 </content>
 	</entry>

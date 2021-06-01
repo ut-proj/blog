@@ -2,6 +2,7 @@
 title = "Publishing to Soundcloud"
 template = "post.html"
 date = 2021-02-27T05:00:00Z
+slug = "2021/02/soundcloud"
 
 [taxonomies]
 tags = ["social", "news", "compositions"]

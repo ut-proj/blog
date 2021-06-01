@@ -2,8 +2,9 @@
 .DS_Store
 
 # MuseScore
-*..mscz
+*.mscz
 *.mxl
+**/.mscbackup/
 
 # Emacs
 *~

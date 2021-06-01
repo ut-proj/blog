@@ -2,6 +2,7 @@
 title = "New Instagram Account"
 template = "post.html"
 date = 2020-12-14T15:00:00Z
+slug = "2020/12/instagram"
 
 [taxonomies]
 tags = ["social", "news"]
