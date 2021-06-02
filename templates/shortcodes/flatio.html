@@ -1,0 +1,17 @@
+{% if page.extra.osmd_enabled %}
+<div id="flat-{{ id }}"></div>
+<script>
+  {% set score_url = get_url(path=score_path) -%}
+  function doFlatIO{{ id }}() {
+      var container = document.getElementById('flat-{{ id }}');
+      var flatio{{id}} = new Flat.Embed(container, {
+          score: "{{ score_url | safe }}",
+          embedParams: {
+              appId: "{{ config.extra.flatio.app_id }}",
+              controlsPosition: 'bottom',
+          }
+      });
+  };  
+  window.addEventListener("load", doFlatIO{{ id }}, false);
+</script>
+{% endif %}

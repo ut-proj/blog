@@ -7,6 +7,21 @@ slug = "2021/05/stacked-dims"
 [extra]
 flatio_enabled = false
 osmd_enabled = true
+verovio_enabled = false
 +++
 
-TBD
+INTRO
+
+Just the diminished chords:
+
+{{ osmd(id=1, score_path="scores/bach-intervals/stacked-dims.xml") }}
+
+Some transitions that resolve to C#m:
+
+{{ osmd(id=2, score_path="scores/bach-intervals/stacked-dims-plus.xml") }}
+
+With resolution and bass notes:
+
+{{ osmd(id=3, score_path="scores/bach-intervals/stacked-dims-plus-2-stave.xml") }}
+
+CONCLUSION

@@ -3,40 +3,6 @@
 {% block title %}{{ config.title }} • {{ page.title }}{% endblock title %}
 
 {% block content %}
-{% if page.extra.flatio_enabled %}
-<div id="flat-container"></div>
-<script src="../js/flat-io.min.js"></script>
-<script>
-  var container = document.getElementById('flat-container');
-  var embed = new Flat.Embed(container, {
-    score: "../scores/bach-intervals/stacked-dims.xml",
-    embedParams: {
-      appId: "{{ config.extra.flatio.app_id }}",
-      controlsPosition: 'bottom',
-    }
-  });
-</script>
-{% endif %}
-
-{% if page.extra.osmd_enabled %}
-<div id="osmd-container"></div>
-<script src="../js/opensheetmusicdisplay.min.js"></script>
-<script>
-  var osmd = new opensheetmusicdisplay.OpenSheetMusicDisplay("osmd-container");
-  osmd.setOptions({
-    backend: "svg",
-    drawingParameters: "compacttight"
-  });
-  osmd
-    .load("../scores/bach-intervals/stacked-dims.xml")
-    .then(
-      function() {
-        osmd.render();
-      }
-    );
-</script>
-{% endif %}
-
 <article class="post animated fadeInDown">
   <div class="post-buffer">
   <h1><a href="{{ page.permalink }}">{{ page.title }}</a></h1>
@@ -79,3 +45,17 @@
 </script>
   {% endif %}
 {% endblock content %}
+
+{% block end_scripts %}
+    {% if page.extra.flatio_enabled %}
+    <script async src="{{ get_url(path="js/flat-io.min.js") }}"></script>
+    {% endif %}
+
+    {% if page.extra.osmd_enabled %}
+    <script src="{{ get_url(path="js/opensheetmusicdisplay.min.js") }}"></script>
+    {% endif %}
+
+    {% if page.extra.verovio_enabled %}
+    <script src="{{ get_url(path="js/verovio-app.js") }}"></script>
+    {% endif %}
+{% endblock end_scripts %}

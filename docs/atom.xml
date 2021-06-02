@@ -22,7 +22,74 @@
 		<updated>2021-05-17T23:00:00+00:00</updated>
 		<link href="https://undertone.lfe.io/blog/2021/05/stacked-dims/" type="text/html"/>
 		<id>https://undertone.lfe.io/blog/2021/05/stacked-dims/</id>
-		<content type="html">&lt;p&gt;TBD&lt;&#x2F;p&gt;
+		<content type="html">&lt;p&gt;INTRO&lt;&#x2F;p&gt;
+&lt;p&gt;Just the diminished chords:&lt;&#x2F;p&gt;
+&lt;div id=&quot;osmd-1&quot;&gt;&lt;&#x2F;div&gt;
+&lt;script&gt;
+  function doOSMD1() {
+      var osmd1 = new opensheetmusicdisplay.OpenSheetMusicDisplay(&quot;osmd-1&quot;);
+      osmd1.setOptions({
+          backend: &quot;svg&quot;,
+          drawTitle: false,
+          drawComposer: false,
+          drawPartNames: false,
+          drawMeasureNumbers: false
+      });
+      osmd1
+          .load(&quot;https:&#x2F;&#x2F;undertone.lfe.io&#x2F;blog&#x2F;scores&#x2F;bach-intervals&#x2F;stacked-dims.xml&quot;)
+          .then(
+              function() {
+                  osmd1.render();
+              }
+          );
+  };
+  window.addEventListener(&quot;load&quot;, doOSMD1, false);
+&lt;&#x2F;script&gt;
+&lt;p&gt;Some transitions that resolve to C#m:&lt;&#x2F;p&gt;
+&lt;div id=&quot;osmd-2&quot;&gt;&lt;&#x2F;div&gt;
+&lt;script&gt;
+  function doOSMD2() {
+      var osmd2 = new opensheetmusicdisplay.OpenSheetMusicDisplay(&quot;osmd-2&quot;);
+      osmd2.setOptions({
+          backend: &quot;svg&quot;,
+          drawTitle: false,
+          drawComposer: false,
+          drawPartNames: false,
+          drawMeasureNumbers: false
+      });
+      osmd2
+          .load(&quot;https:&#x2F;&#x2F;undertone.lfe.io&#x2F;blog&#x2F;scores&#x2F;bach-intervals&#x2F;stacked-dims-plus.xml&quot;)
+          .then(
+              function() {
+                  osmd2.render();
+              }
+          );
+  };
+  window.addEventListener(&quot;load&quot;, doOSMD2, false);
+&lt;&#x2F;script&gt;
+&lt;p&gt;With resolution and bass notes:&lt;&#x2F;p&gt;
+&lt;div id=&quot;osmd-3&quot;&gt;&lt;&#x2F;div&gt;
+&lt;script&gt;
+  function doOSMD3() {
+      var osmd3 = new opensheetmusicdisplay.OpenSheetMusicDisplay(&quot;osmd-3&quot;);
+      osmd3.setOptions({
+          backend: &quot;svg&quot;,
+          drawTitle: false,
+          drawComposer: false,
+          drawPartNames: false,
+          drawMeasureNumbers: false
+      });
+      osmd3
+          .load(&quot;https:&#x2F;&#x2F;undertone.lfe.io&#x2F;blog&#x2F;scores&#x2F;bach-intervals&#x2F;stacked-dims-plus-2-stave.xml&quot;)
+          .then(
+              function() {
+                  osmd3.render();
+              }
+          );
+  };
+  window.addEventListener(&quot;load&quot;, doOSMD3, false);
+&lt;&#x2F;script&gt;
+&lt;p&gt;CONCLUSION&lt;&#x2F;p&gt;
 </content>
 	</entry>
 	<entry xml:lang="en">

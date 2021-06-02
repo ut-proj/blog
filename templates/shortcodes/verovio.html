@@ -1,0 +1,21 @@
+{% if page.extra.verovio_enabled %}
+<div class="panel-body">
+    <div id="verovio-{{ id }}" class="panel" style="border: 1px solid lightgray; min-height: 800px;"></div>
+</div>
+<script>
+  {% set score_url = get_url(path=score_path) -%}
+  function doVerovio{{ id }} () {
+
+      const verovio{{ id }} = new Verovio.App(document.getElementById("verovio-{{ id }}"), {});
+      fetch(" {{ score_url | safe }}")
+          .then(function(response) {
+              return response.text();
+          })
+          .then(function(text) {
+              verovio{{ id }}.loadData(text);
+          });
+      
+  };
+  window.addEventListener("load", doVerovio{{ id }}, false);
+</script>
+{% endif %}
