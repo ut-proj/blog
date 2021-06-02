@@ -24,4 +24,9 @@ With resolution and bass notes:
 
 {{ osmd(id=3, score_path="scores/bach-intervals/stacked-dims-plus-2-stave.xml") }}
 
+
+You can listen to it here:
+
+{{ mp3player(path="audio/bach-intervals.mp3") }}
+
 CONCLUSION

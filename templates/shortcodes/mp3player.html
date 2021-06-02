@@ -1,0 +1,6 @@
+<div class="mp3player">
+  {% set mp3_url = get_url(path=path) -%}
+  <audio autoplay controls="controls">
+    <source src="{{ mp3_url | safe }}" />
+  </audio>
+</div>
