@@ -45,6 +45,12 @@
   };
   window.addEventListener(&quot;load&quot;, doOSMD1, false);
 &lt;&#x2F;script&gt;
+&lt;p&gt;You can listen to it here:&lt;&#x2F;p&gt;
+&lt;div class=&quot;mp3player&quot;&gt;
+  &lt;audio controls=&quot;controls&quot;&gt;
+    &lt;source src=&quot;https:&#x2F;&#x2F;undertone.lfe.io&#x2F;blog&#x2F;scores&#x2F;bach-intervals&#x2F;stacked-dims-intro.mp3&quot; &#x2F;&gt;
+  &lt;&#x2F;audio&gt;
+&lt;&#x2F;div&gt;
 &lt;p&gt;Some transitions that resolve to C#m:&lt;&#x2F;p&gt;
 &lt;div id=&quot;osmd-2&quot;&gt;&lt;&#x2F;div&gt;
 &lt;script&gt;
@@ -89,6 +95,12 @@
   };
   window.addEventListener(&quot;load&quot;, doOSMD3, false);
 &lt;&#x2F;script&gt;
+&lt;p&gt;You can listen to the full example here:&lt;&#x2F;p&gt;
+&lt;div class=&quot;mp3player&quot;&gt;
+  &lt;audio controls=&quot;controls&quot;&gt;
+    &lt;source src=&quot;https:&#x2F;&#x2F;undertone.lfe.io&#x2F;blog&#x2F;scores&#x2F;bach-intervals&#x2F;stacked-dims-2-stave.mp3&quot; &#x2F;&gt;
+  &lt;&#x2F;audio&gt;
+&lt;&#x2F;div&gt;
 &lt;p&gt;CONCLUSION&lt;&#x2F;p&gt;
 </content>
 	</entry>

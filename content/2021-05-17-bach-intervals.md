@@ -16,6 +16,10 @@ Just the diminished chords:
 
 {{ osmd(id=1, score_path="scores/bach-intervals/stacked-dims.xml") }}
 
+You can listen to it here:
+
+{{ mp3player(path="scores/bach-intervals/stacked-dims-intro.mp3") }}
+
 Some transitions that resolve to C#m:
 
 {{ osmd(id=2, score_path="scores/bach-intervals/stacked-dims-plus.xml") }}
@@ -24,9 +28,8 @@ With resolution and bass notes:
 
 {{ osmd(id=3, score_path="scores/bach-intervals/stacked-dims-plus-2-stave.xml") }}
 
+You can listen to the full example here:
 
-You can listen to it here:
-
-{{ mp3player(path="audio/bach-intervals.mp3") }}
+{{ mp3player(path="scores/bach-intervals/stacked-dims-2-stave.mp3") }}
 
 CONCLUSION
