@@ -140,24 +140,26 @@
   &lt;&#x2F;script&gt;
 &lt;&#x2F;div&gt;
 &lt;p&gt;Verovio:&lt;&#x2F;p&gt;
-&lt;div class=&quot;panel-body&quot;&gt;
+&lt;div class=&quot;score-wraper&quot;&gt;
+  &lt;div class=&quot;panel-body&quot;&gt;
     &lt;div id=&quot;verovio-3&quot; class=&quot;panel&quot; style=&quot;border: 1px solid lightgray; min-height: 800px;&quot;&gt;&lt;&#x2F;div&gt;
-&lt;&#x2F;div&gt;
-&lt;script&gt;
-  function doVerovio3 () {
+  &lt;&#x2F;div&gt;
+  &lt;script&gt;
+    function doVerovio3 () {
 
-      const verovio3 = new Verovio.App(document.getElementById(&quot;verovio-3&quot;), {});
-      fetch(&quot; https:&#x2F;&#x2F;undertone.lfe.io&#x2F;blog&#x2F;scores&#x2F;bach-intervals&#x2F;stacked-dims-plus-2-stave.xml&quot;)
-          .then(function(response) {
-              return response.text();
-          })
-          .then(function(text) {
-              verovio3.loadData(text);
-          });
-      
-  };
-  window.addEventListener(&quot;load&quot;, doVerovio3, false);
-&lt;&#x2F;script&gt;
+        const verovio3 = new Verovio.App(document.getElementById(&quot;verovio-3&quot;), {});
+        fetch(&quot; https:&#x2F;&#x2F;undertone.lfe.io&#x2F;blog&#x2F;scores&#x2F;bach-intervals&#x2F;stacked-dims-plus-2-stave.xml&quot;)
+            .then(function(response) {
+                return response.text();
+            })
+            .then(function(text) {
+                verovio3.loadData(text);
+            });
+        
+    };
+    window.addEventListener(&quot;load&quot;, doVerovio3, false);
+  &lt;&#x2F;script&gt;
+&lt;&#x2F;div&gt;
 </content>
 	</entry>
 	<entry xml:lang="en">
