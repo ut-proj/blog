@@ -6,20 +6,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
 
   <!-- Favicons -->
-  <link rel="apple-touch-icon" sizes="180x180" href={{ get_url(path="icons/apple-touch-icon.png", trailing_slash=false) }}>
-  <link rel="icon" type="image/png" sizes="32x32" href={{ get_url(path="icons/favicon-32x32.png", trailing_slash=false) }}>
-  <link rel="icon" type="image/png" sizes="16x16" href={{ get_url(path="icons/favicon-16x16.png", trailing_slash=false) }}>
-  <link rel="manifest" href={{ get_url(path="icons/site.webmanifest", trailing_slash=false) }}>
-  <link rel="mask-icon" href={{ get_url(path="icons/safari-pinned-tab.svg", trailing_slash=false) }} color="#603cba">
-  <link rel="shortcut icon" href={{ get_url(path="icons/favicon.ico", trailing_slash=false) }}>
+  <link rel="apple-touch-icon" sizes="180x180" href={{ get_url(path="icons/apple-touch-icon.png") }}>
+  <link rel="icon" type="image/png" sizes="32x32" href={{ get_url(path="icons/favicon-32x32.png") }}>
+  <link rel="icon" type="image/png" sizes="16x16" href={{ get_url(path="icons/favicon-16x16.png") }}>
+  <link rel="manifest" href={{ get_url(path="icons/site.webmanifest") }}>
+  <link rel="mask-icon" href={{ get_url(path="icons/safari-pinned-tab.svg") }} color="#603cba">
+  <link rel="shortcut icon" href={{ get_url(path="icons/favicon.ico") }}>
   <meta name="apple-mobile-web-app-title" content="undertone">
   <meta name="application-name" content="undertone">
   <meta name="msapplication-TileColor" content="#603cba">
-  <meta name="msapplication-config" content={{ get_url(path="icons/browserconfig.xml", trailing_slash=false) }}>
+  <meta name="msapplication-config" content={{ get_url(path="icons/browserconfig.xml") }}>
   <meta name="theme-color" content="#2d89ef">
 
-  <link rel="stylesheet" href={{ get_url(path="theme.css", trailing_slash=false) }} type="text/css">
-  <link  href={{ get_url(path="css/fontawesome-5.15.3-all.min.css", trailing_slash=false) }} rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href={{ get_url(path="theme.css") }} type="text/css">
+  <link  href={{ get_url(path="css/fontawesome-5.15.3-all.min.css") }} rel="stylesheet" type="text/css">
   <title>{% block title %}{{ config.title }}{% endblock title %}</title>
   {% if config.generate_feed %}
   <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="{{ get_url(path="atom.xml", trailing_slash=false) }}">
