@@ -1,24 +1,26 @@
 {% if page.extra.osmd_enabled %}
-<div id="osmd-{{ id }}"></div>
-<script>
-  {% set score_url = get_url(path=score_path) -%}
-  function doOSMD{{ id }}() {
-      var osmd{{ id }} = new opensheetmusicdisplay.OpenSheetMusicDisplay("osmd-{{ id }}");
-      osmd{{ id }}.setOptions({
-          backend: "svg",
-          drawTitle: false,
-          drawComposer: false,
-          drawPartNames: false,
-          drawMeasureNumbers: false
-      });
-      osmd{{ id }}
-          .load("{{ score_url | safe }}")
-          .then(
-              function() {
-                  osmd{{ id }}.render();
-              }
-          );
-  };
-  window.addEventListener("load", doOSMD{{ id }}, false);
-</script>
+<div class="score-wraper">
+  <div id="osmd-{{ id }}"></div>
+  <script>
+    {% set score_url = get_url(path=score_path) -%}
+    function doOSMD{{ id }}() {
+        var osmd{{ id }} = new opensheetmusicdisplay.OpenSheetMusicDisplay("osmd-{{ id }}");
+        osmd{{ id }}.setOptions({
+            backend: "svg",
+            drawTitle: false,
+            drawComposer: false,
+            drawPartNames: false,
+            drawMeasureNumbers: false
+        });
+        osmd{{ id }}
+            .load("{{ score_url | safe }}")
+            .then(
+                function() {
+                    osmd{{ id }}.render();
+                }
+            );
+    };
+    window.addEventListener("load", doOSMD{{ id }}, false);
+  </script>
+</div>
 {% endif %}
