@@ -5,8 +5,161 @@
 	<link href="https://undertone.lfe.io/blog/atom.xml" rel="self" type="application/atom+xml"/>
   <link href="https://undertone.lfe.io/blog"/>
 	<generator uri="https://www.getzola.org/">Zola</generator>
-	<updated>2021-05-19T23:00:00+00:00</updated>
+	<updated>2021-06-03T00:00:00+00:00</updated>
 	<id>https://undertone.lfe.io/blog/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Blog Docs: New Shortcodes for Soundcloud Players</title>
+		<published>2021-06-03T00:00:00+00:00</published>
+		<updated>2021-06-03T00:00:00+00:00</updated>
+		<link href="https://undertone.lfe.io/blog/help/soundcloud-shortcodes/" type="text/html"/>
+		<id>https://undertone.lfe.io/blog/help/soundcloud-shortcodes/</id>
+		<content type="html">&lt;pre style=&quot;background-color:#2b303b;&quot;&gt;
+&lt;code class=&quot;language-jinja2&quot; data-lang=&quot;jinja2&quot;&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;{{ &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;soundcloud&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;(
+       &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;track_id&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;1041500689&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&amp;quot;,
+       &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;track_name&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Chopin, Op. 28 No. 20 (C Minor) - Choir&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&amp;quot;,
+       &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;track_url_name&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;chopin-op-28-no-20-c-minor-choir&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&amp;quot;,
+       &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;user_id&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;oubiwann&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&amp;quot;,
+       &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;user_name&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Duncan McGreggor&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&amp;quot;,
+       &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;colour&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;2d6072&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&amp;quot;,
+       &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;auto_play&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;false&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&amp;quot;,
+       &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;show_comments&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;false&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&amp;quot;,
+       &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;hide_related&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;true&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&amp;quot;) }}
+       
+{{ &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;soundcloud_mini&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;(
+       &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;track_id&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;968360833&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&amp;quot;,
+       &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;track_name&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;CONIVNCTIO IOVIS ET SATVRNI&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&amp;quot;,
+       &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;track_url_name&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;conivnctio-iovis-et-satvrni&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&amp;quot;,
+       &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;user_id&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;forgotten-tones&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&amp;quot;,
+       &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;user_name&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;𝚝𝚑𝚎 Forgotten Tones 𝚙𝚛𝚘𝚓𝚎𝚌𝚝&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&amp;quot;,
+       &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;colour&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;2d6072&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&amp;quot;,
+       &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;auto_play&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;false&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&amp;quot;,
+       &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;show_comments&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;false&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&amp;quot;,
+       &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;hide_related&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;true&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&amp;quot;) }}
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Which render as these:&lt;&#x2F;p&gt;
+&lt;div id=&quot;soundcloud-wrapper&quot;&gt;
+&lt;iframe width=&quot;100%&quot; height=&quot;300&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; allow=&quot;autoplay&quot; 
+        src=&quot;https:&#x2F;&#x2F;w.soundcloud.com&#x2F;player&#x2F;?url=https%3A&#x2F;&#x2F;api.soundcloud.com&#x2F;tracks&#x2F;1041500689&amp;color=%232d6072&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true&quot;&gt;
+&lt;&#x2F;iframe&gt;
+&lt;div style=&quot;font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;&quot;&gt;
+    &lt;a href=&quot;https:&#x2F;&#x2F;soundcloud.com&#x2F;oubiwann&quot; title=&quot;Duncan McGreggor&quot; target=&quot;_blank&quot; style=&quot;color: #cccccc; text-decoration: none;&quot;&gt;Duncan McGreggor&lt;&#x2F;a&gt; · &lt;a href=&quot;https:&#x2F;&#x2F;soundcloud.com&#x2F;oubiwann&#x2F;chopin-op-28-no-20-c-minor-choir&quot; title=&quot;Chopin, Op. 28 No. 20 (C Minor) - Choir&quot; target=&quot;_blank&quot; style=&quot;color: #cccccc; text-decoration: none;&quot;&gt;Chopin, Op. 28 No. 20 (C Minor) - Choir&lt;&#x2F;a&gt;
+&lt;&#x2F;div&gt;
+&lt;&#x2F;div&gt;
+&lt;div id=&quot;soundcloud-mini-wrapper&quot;&gt;
+&lt;iframe width=&quot;50%&quot; height=&quot;166&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; allow=&quot;autoplay&quot;
+        src=&quot;https:&#x2F;&#x2F;w.soundcloud.com&#x2F;player&#x2F;?url=https%3A&#x2F;&#x2F;api.soundcloud.com&#x2F;tracks&#x2F;968360833&amp;color=%232d6072&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&quot;&gt;
+&lt;&#x2F;iframe&gt;
+&lt;div style=&quot;font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;&quot;&gt;
+  &lt;a href=&quot;https:&#x2F;&#x2F;soundcloud.com&#x2F;forgotten-tones&quot; title=&quot;𝚝𝚑𝚎 Forgotten Tones 𝚙𝚛𝚘𝚓𝚎𝚌𝚝&quot; target=&quot;_blank&quot; style=&quot;color: #cccccc; text-decoration: none;&quot;&gt;𝚝𝚑𝚎 Forgotten Tones 𝚙𝚛𝚘𝚓𝚎𝚌𝚝&lt;&#x2F;a&gt; · &lt;a href=&quot;https:&#x2F;&#x2F;soundcloud.com&#x2F;forgotten-tones&#x2F;conivnctio-iovis-et-satvrni&quot; title=&quot;CONIVNCTIO IOVIS ET SATVRNI&quot; target=&quot;_blank&quot; style=&quot;color: #cccccc; text-decoration: none;&quot;&gt;CONIVNCTIO IOVIS ET SATVRNI&lt;&#x2F;a&gt;
+&lt;&#x2F;div&gt;
+&lt;&#x2F;div&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Blog Docs: New (simple) Shortcode for Browser MP3 Player</title>
+		<published>2021-06-02T00:00:00+00:00</published>
+		<updated>2021-06-02T00:00:00+00:00</updated>
+		<link href="https://undertone.lfe.io/blog/help/mp3player-shortcode/" type="text/html"/>
+		<id>https://undertone.lfe.io/blog/help/mp3player-shortcode/</id>
+		<content type="html">&lt;pre style=&quot;background-color:#2b303b;&quot;&gt;
+&lt;code class=&quot;language-jinja2&quot; data-lang=&quot;jinja2&quot;&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;{{ &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;mp3player&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;path&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;scores&#x2F;bach-intervals&#x2F;stacked-dims-2-stave.mp3&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&amp;quot;) }}
+
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Which renders as this:&lt;&#x2F;p&gt;
+&lt;div class=&quot;mp3player&quot;&gt;
+  &lt;audio controls=&quot;controls&quot;&gt;
+    &lt;source src=&quot;https:&#x2F;&#x2F;undertone.lfe.io&#x2F;blog&#x2F;scores&#x2F;bach-intervals&#x2F;stacked-dims-2-stave.mp3&quot; &#x2F;&gt;
+  &lt;&#x2F;audio&gt;
+&lt;&#x2F;div&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Blog Docs: New Shortcodes for Music Scores</title>
+		<published>2021-06-01T00:00:00+00:00</published>
+		<updated>2021-06-01T00:00:00+00:00</updated>
+		<link href="https://undertone.lfe.io/blog/help/score-shortcodes/" type="text/html"/>
+		<id>https://undertone.lfe.io/blog/help/score-shortcodes/</id>
+		<content type="html">&lt;p&gt;In the content markdown header:&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;&quot;&gt;
+&lt;code class=&quot;language-toml&quot; data-lang=&quot;toml&quot;&gt;&lt;span style=&quot;background-color:#bf616a;color:#2b303b;&quot;&gt;+++&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;
+
+...
+
+[extra]
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;flatio_enabled &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;true
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;osmd_enabled &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;true
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;verovio_enabled &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;true
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;+++
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;&lt;pre style=&quot;background-color:#2b303b;&quot;&gt;
+&lt;code class=&quot;language-jinja2&quot; data-lang=&quot;jinja2&quot;&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;{{ &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;osmd&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;id&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;=1, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;score_path&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;scores&#x2F;bach-intervals&#x2F;stacked-dims-plus-2-stave.xml&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&amp;quot;) }}
+
+{{ &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;flatio&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;id&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;=2, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;score_path&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;scores&#x2F;bach-intervals&#x2F;stacked-dims-plus-2-stave.xml&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&amp;quot;) }}
+
+{{ &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;verovio&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;id&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;=3, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;score_path&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;scores&#x2F;bach-intervals&#x2F;stacked-dims-plus-2-stave.xml&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&amp;quot;) }}
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Which render as shown below.&lt;&#x2F;p&gt;
+&lt;p&gt;Open Sheet Music Display:&lt;&#x2F;p&gt;
+&lt;div class=&quot;score-wraper&quot;&gt;
+  &lt;div id=&quot;osmd-1&quot;&gt;&lt;&#x2F;div&gt;
+  &lt;script&gt;
+    function doOSMD1() {
+        var osmd1 = new opensheetmusicdisplay.OpenSheetMusicDisplay(&quot;osmd-1&quot;);
+        osmd1.setOptions({
+            backend: &quot;svg&quot;,
+            drawTitle: false,
+            drawComposer: false,
+            drawPartNames: false,
+            drawMeasureNumbers: false
+        });
+        osmd1
+            .load(&quot;https:&#x2F;&#x2F;undertone.lfe.io&#x2F;blog&#x2F;scores&#x2F;bach-intervals&#x2F;stacked-dims-plus-2-stave.xml&quot;)
+            .then(
+                function() {
+                    osmd1.render();
+                }
+            );
+    };
+    window.addEventListener(&quot;load&quot;, doOSMD1, false);
+  &lt;&#x2F;script&gt;
+&lt;&#x2F;div&gt;
+&lt;p&gt;Flat.io:&lt;&#x2F;p&gt;
+&lt;div class=&quot;score-wraper&quot;&gt;
+  &lt;div id=&quot;flatio-2&quot;&gt;&lt;&#x2F;div&gt;
+  &lt;script&gt;
+    function doFlatIO2() {
+        var container = document.getElementById(&#x27;flatio-2&#x27;);
+        var embed2 = new Flat.Embed(container, {
+            score: &quot;https:&#x2F;&#x2F;undertone.lfe.io&#x2F;blog&#x2F;scores&#x2F;bach-intervals&#x2F;stacked-dims-plus-2-stave.xml&quot;,
+            embedParams: {
+                appId: &quot;60a50e3db361363d9d745231&quot;,
+                controlsPosition: &#x27;top&#x27;,
+            }
+        });
+    };  
+    window.addEventListener(&quot;load&quot;, doFlatIO2, false);
+  &lt;&#x2F;script&gt;
+&lt;&#x2F;div&gt;
+&lt;p&gt;Verovio:&lt;&#x2F;p&gt;
+&lt;div class=&quot;panel-body&quot;&gt;
+    &lt;div id=&quot;verovio-3&quot; class=&quot;panel&quot; style=&quot;border: 1px solid lightgray; min-height: 800px;&quot;&gt;&lt;&#x2F;div&gt;
+&lt;&#x2F;div&gt;
+&lt;script&gt;
+  function doVerovio3 () {
+
+      const verovio3 = new Verovio.App(document.getElementById(&quot;verovio-3&quot;), {});
+      fetch(&quot; https:&#x2F;&#x2F;undertone.lfe.io&#x2F;blog&#x2F;scores&#x2F;bach-intervals&#x2F;stacked-dims-plus-2-stave.xml&quot;)
+          .then(function(response) {
+              return response.text();
+          })
+          .then(function(text) {
+              verovio3.loadData(text);
+          });
+      
+  };
+  window.addEventListener(&quot;load&quot;, doVerovio3, false);
+&lt;&#x2F;script&gt;
+</content>
+	</entry>
 	<entry xml:lang="en">
 		<title>Music scores in the browser</title>
 		<published>2021-05-19T23:00:00+00:00</published>
@@ -24,27 +177,29 @@
 		<id>https://undertone.lfe.io/blog/2021/05/stacked-dims/</id>
 		<content type="html">&lt;p&gt;INTRO&lt;&#x2F;p&gt;
 &lt;p&gt;Just the diminished chords:&lt;&#x2F;p&gt;
-&lt;div id=&quot;osmd-1&quot;&gt;&lt;&#x2F;div&gt;
-&lt;script&gt;
-  function doOSMD1() {
-      var osmd1 = new opensheetmusicdisplay.OpenSheetMusicDisplay(&quot;osmd-1&quot;);
-      osmd1.setOptions({
-          backend: &quot;svg&quot;,
-          drawTitle: false,
-          drawComposer: false,
-          drawPartNames: false,
-          drawMeasureNumbers: false
-      });
-      osmd1
-          .load(&quot;https:&#x2F;&#x2F;undertone.lfe.io&#x2F;blog&#x2F;scores&#x2F;bach-intervals&#x2F;stacked-dims.xml&quot;)
-          .then(
-              function() {
-                  osmd1.render();
-              }
-          );
-  };
-  window.addEventListener(&quot;load&quot;, doOSMD1, false);
-&lt;&#x2F;script&gt;
+&lt;div class=&quot;score-wraper&quot;&gt;
+  &lt;div id=&quot;osmd-1&quot;&gt;&lt;&#x2F;div&gt;
+  &lt;script&gt;
+    function doOSMD1() {
+        var osmd1 = new opensheetmusicdisplay.OpenSheetMusicDisplay(&quot;osmd-1&quot;);
+        osmd1.setOptions({
+            backend: &quot;svg&quot;,
+            drawTitle: false,
+            drawComposer: false,
+            drawPartNames: false,
+            drawMeasureNumbers: false
+        });
+        osmd1
+            .load(&quot;https:&#x2F;&#x2F;undertone.lfe.io&#x2F;blog&#x2F;scores&#x2F;bach-intervals&#x2F;stacked-dims.xml&quot;)
+            .then(
+                function() {
+                    osmd1.render();
+                }
+            );
+    };
+    window.addEventListener(&quot;load&quot;, doOSMD1, false);
+  &lt;&#x2F;script&gt;
+&lt;&#x2F;div&gt;
 &lt;p&gt;You can listen to it here:&lt;&#x2F;p&gt;
 &lt;div class=&quot;mp3player&quot;&gt;
   &lt;audio controls=&quot;controls&quot;&gt;
@@ -52,49 +207,53 @@
   &lt;&#x2F;audio&gt;
 &lt;&#x2F;div&gt;
 &lt;p&gt;Some transitions that resolve to C#m:&lt;&#x2F;p&gt;
-&lt;div id=&quot;osmd-2&quot;&gt;&lt;&#x2F;div&gt;
-&lt;script&gt;
-  function doOSMD2() {
-      var osmd2 = new opensheetmusicdisplay.OpenSheetMusicDisplay(&quot;osmd-2&quot;);
-      osmd2.setOptions({
-          backend: &quot;svg&quot;,
-          drawTitle: false,
-          drawComposer: false,
-          drawPartNames: false,
-          drawMeasureNumbers: false
-      });
-      osmd2
-          .load(&quot;https:&#x2F;&#x2F;undertone.lfe.io&#x2F;blog&#x2F;scores&#x2F;bach-intervals&#x2F;stacked-dims-plus.xml&quot;)
-          .then(
-              function() {
-                  osmd2.render();
-              }
-          );
-  };
-  window.addEventListener(&quot;load&quot;, doOSMD2, false);
-&lt;&#x2F;script&gt;
+&lt;div class=&quot;score-wraper&quot;&gt;
+  &lt;div id=&quot;osmd-2&quot;&gt;&lt;&#x2F;div&gt;
+  &lt;script&gt;
+    function doOSMD2() {
+        var osmd2 = new opensheetmusicdisplay.OpenSheetMusicDisplay(&quot;osmd-2&quot;);
+        osmd2.setOptions({
+            backend: &quot;svg&quot;,
+            drawTitle: false,
+            drawComposer: false,
+            drawPartNames: false,
+            drawMeasureNumbers: false
+        });
+        osmd2
+            .load(&quot;https:&#x2F;&#x2F;undertone.lfe.io&#x2F;blog&#x2F;scores&#x2F;bach-intervals&#x2F;stacked-dims-plus.xml&quot;)
+            .then(
+                function() {
+                    osmd2.render();
+                }
+            );
+    };
+    window.addEventListener(&quot;load&quot;, doOSMD2, false);
+  &lt;&#x2F;script&gt;
+&lt;&#x2F;div&gt;
 &lt;p&gt;With resolution and bass notes:&lt;&#x2F;p&gt;
-&lt;div id=&quot;osmd-3&quot;&gt;&lt;&#x2F;div&gt;
-&lt;script&gt;
-  function doOSMD3() {
-      var osmd3 = new opensheetmusicdisplay.OpenSheetMusicDisplay(&quot;osmd-3&quot;);
-      osmd3.setOptions({
-          backend: &quot;svg&quot;,
-          drawTitle: false,
-          drawComposer: false,
-          drawPartNames: false,
-          drawMeasureNumbers: false
-      });
-      osmd3
-          .load(&quot;https:&#x2F;&#x2F;undertone.lfe.io&#x2F;blog&#x2F;scores&#x2F;bach-intervals&#x2F;stacked-dims-plus-2-stave.xml&quot;)
-          .then(
-              function() {
-                  osmd3.render();
-              }
-          );
-  };
-  window.addEventListener(&quot;load&quot;, doOSMD3, false);
-&lt;&#x2F;script&gt;
+&lt;div class=&quot;score-wraper&quot;&gt;
+  &lt;div id=&quot;osmd-3&quot;&gt;&lt;&#x2F;div&gt;
+  &lt;script&gt;
+    function doOSMD3() {
+        var osmd3 = new opensheetmusicdisplay.OpenSheetMusicDisplay(&quot;osmd-3&quot;);
+        osmd3.setOptions({
+            backend: &quot;svg&quot;,
+            drawTitle: false,
+            drawComposer: false,
+            drawPartNames: false,
+            drawMeasureNumbers: false
+        });
+        osmd3
+            .load(&quot;https:&#x2F;&#x2F;undertone.lfe.io&#x2F;blog&#x2F;scores&#x2F;bach-intervals&#x2F;stacked-dims-plus-2-stave.xml&quot;)
+            .then(
+                function() {
+                    osmd3.render();
+                }
+            );
+    };
+    window.addEventListener(&quot;load&quot;, doOSMD3, false);
+  &lt;&#x2F;script&gt;
+&lt;&#x2F;div&gt;
 &lt;p&gt;You can listen to the full example here:&lt;&#x2F;p&gt;
 &lt;div class=&quot;mp3player&quot;&gt;
   &lt;audio controls=&quot;controls&quot;&gt;
@@ -110,18 +269,18 @@
 		<updated>2021-05-11T02:00:00+00:00</updated>
 		<link href="https://undertone.lfe.io/blog/2021/05/chopin-choir/" type="text/html"/>
 		<id>https://undertone.lfe.io/blog/2021/05/chopin-choir/</id>
-		<content type="html">&lt;p&gt;In the music theory class I&#x27;m taking, I&#x27;ve found that even though I was originally trained on piano and have never had any chorale training, I have a better job hearing intervals if I use a sampled choir instead of some of my favourite sampled piano sounds.&lt;&#x2F;p&gt;
+		<content type="html">&lt;p&gt;In the music theory class I&#x27;m taking, I&#x27;ve found that even though I was originally trained on piano and have never had any chorale training, I have a better job hearing intervals if I use a sampled choir instead of some of my favourite sampled piano sounds. Not sure why this is? Or how common such perception is. Would be fascinating to find out if we&#x27;ve evolved auditorially to better hear distinctions in sound if the source is the human voice.&lt;&#x2F;p&gt;
 &lt;p&gt;I&#x27;ve looked at several sampled choir VST plugins and am really lusting after the &lt;a href=&quot;https:&#x2F;&#x2F;www.spitfireaudio.com&#x2F;shop&#x2F;a-z&#x2F;eric-whitacre-choir&#x2F;&quot;&gt;Eric Whitacre choir by Spitfire&lt;&#x2F;a&gt;. Until I can afford that, I&#x27;ve been using their free choir VST plugin based upon the premium one (&lt;a href=&quot;https:&#x2F;&#x2F;labs.spitfireaudio.com&#x2F;choir&quot;&gt;link&lt;&#x2F;a&gt;; I&#x27;ve also really been enjoying their pipe organ samples, too).&lt;&#x2F;p&gt;
 &lt;p&gt;In fact, I was having such an incredible set of personal sound revelations with the choir plugin that I tried doing a simple arragement of Chpoin&#x27;s prelude in C minor. I&#x27;ve uploaded the result to soundcloud:&lt;&#x2F;p&gt;
 &lt;div id=&quot;soundcloud-wrapper&quot;&gt;
-&lt;iframe width=&quot;50%&quot; height=&quot;166&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; allow=&quot;autoplay&quot;
-        src=&quot;https:&#x2F;&#x2F;w.soundcloud.com&#x2F;player&#x2F;?url=https%3A&#x2F;&#x2F;api.soundcloud.com&#x2F;tracks&#x2F;1041500689&amp;color=%232d6072&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&quot;&gt;
+&lt;iframe width=&quot;100%&quot; height=&quot;300&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; allow=&quot;autoplay&quot; 
+        src=&quot;https:&#x2F;&#x2F;w.soundcloud.com&#x2F;player&#x2F;?url=https%3A&#x2F;&#x2F;api.soundcloud.com&#x2F;tracks&#x2F;1041500689&amp;color=%232d6072&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true&quot;&gt;
 &lt;&#x2F;iframe&gt;
 &lt;div style=&quot;font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;&quot;&gt;
-  &lt;a href=&quot;https:&#x2F;&#x2F;soundcloud.com&#x2F;oubiwann&quot; title=&quot;Duncan McGreggor&quot; target=&quot;_blank&quot; style=&quot;color: #cccccc; text-decoration: none;&quot;&gt;Duncan McGreggor&lt;&#x2F;a&gt; · &lt;a href=&quot;https:&#x2F;&#x2F;soundcloud.com&#x2F;oubiwann&#x2F;chopin-op-28-no-20-c-minor-choir&quot; title=&quot;Chopin, Op. 28 No. 20 (C Minor) - Choir&quot; target=&quot;_blank&quot; style=&quot;color: #cccccc; text-decoration: none;&quot;&gt;Chopin, Op. 28 No. 20 (C Minor) - Choir&lt;&#x2F;a&gt;
+    &lt;a href=&quot;https:&#x2F;&#x2F;soundcloud.com&#x2F;oubiwann&quot; title=&quot;Duncan McGreggor&quot; target=&quot;_blank&quot; style=&quot;color: #cccccc; text-decoration: none;&quot;&gt;Duncan McGreggor&lt;&#x2F;a&gt; · &lt;a href=&quot;https:&#x2F;&#x2F;soundcloud.com&#x2F;oubiwann&#x2F;chopin-op-28-no-20-c-minor-choir&quot; title=&quot;Chopin, Op. 28 No. 20 (C Minor) - Choir&quot; target=&quot;_blank&quot; style=&quot;color: #cccccc; text-decoration: none;&quot;&gt;Chopin, Op. 28 No. 20 (C Minor) - Choir&lt;&#x2F;a&gt;
 &lt;&#x2F;div&gt;
 &lt;&#x2F;div&gt;
-&lt;p&gt;I never imagined saying this, but I think in my future studies of counterpoint and harmony, I will be spending a great deal of time with chorale music and maybe even get some formal training on the same ...&lt;&#x2F;p&gt;
+&lt;p&gt;I never imagined saying this, but I think in my future studies of counterpoint and harmony, I will be spending a great deal of time with chorale music and maybe even get some formal training on the same. I suspect that learning to compose for choirs would be extremely beneficial in better writing voices for other instruments &#x2F; ensembles.&lt;&#x2F;p&gt;
 </content>
 	</entry>
 	<entry xml:lang="en">
@@ -240,7 +399,16 @@
 		<updated>2021-01-20T02:00:00+00:00</updated>
 		<link href="https://undertone.lfe.io/blog/2021/01/teaser-audio-track/" type="text/html"/>
 		<id>https://undertone.lfe.io/blog/2021/01/teaser-audio-track/</id>
-		<content type="html">&lt;p&gt;In the &lt;a href=&quot;https:&#x2F;&#x2F;undertone.lfe.io&#x2F;blog&#x2F;2021&#x2F;01&#x2F;teaser-audio-track&#x2F;thing&quot;&gt;previous post&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+		<content type="html">&lt;p&gt;In the previous post regarding the &lt;a href=&quot;https:&#x2F;&#x2F;undertone.lfe.io&#x2F;blog&#x2F;2021&#x2F;01&#x2F;teaser-video&#x2F;&quot;&gt;video teaser&lt;&#x2F;a&gt; for Lambda Days, an audio track was used as the &amp;quot;score&amp;quot; for the video. It has now been published on soundcloud here:&lt;&#x2F;p&gt;
+&lt;div id=&quot;soundcloud-mini-wrapper&quot;&gt;
+&lt;iframe width=&quot;50%&quot; height=&quot;166&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; allow=&quot;autoplay&quot;
+        src=&quot;https:&#x2F;&#x2F;w.soundcloud.com&#x2F;player&#x2F;?url=https%3A&#x2F;&#x2F;api.soundcloud.com&#x2F;tracks&#x2F;968360833&amp;color=%232d6072&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&quot;&gt;
+&lt;&#x2F;iframe&gt;
+&lt;div style=&quot;font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;&quot;&gt;
+  &lt;a href=&quot;https:&#x2F;&#x2F;soundcloud.com&#x2F;forgotten-tones&quot; title=&quot;𝚝𝚑𝚎 Forgotten Tones 𝚙𝚛𝚘𝚓𝚎𝚌𝚝&quot; target=&quot;_blank&quot; style=&quot;color: #cccccc; text-decoration: none;&quot;&gt;𝚝𝚑𝚎 Forgotten Tones 𝚙𝚛𝚘𝚓𝚎𝚌𝚝&lt;&#x2F;a&gt; · &lt;a href=&quot;https:&#x2F;&#x2F;soundcloud.com&#x2F;forgotten-tones&#x2F;conivnctio-iovis-et-satvrni&quot; title=&quot;CONIVNCTIO IOVIS ET SATVRNI&quot; target=&quot;_blank&quot; style=&quot;color: #cccccc; text-decoration: none;&quot;&gt;CONIVNCTIO IOVIS ET SATVRNI&lt;&#x2F;a&gt;
+&lt;&#x2F;div&gt;
+&lt;&#x2F;div&gt;
+&lt;p&gt;(add more about the background of the song, development, etc.)&lt;&#x2F;p&gt;
 </content>
 	</entry>
 	<entry xml:lang="en">
@@ -317,7 +485,7 @@
 </content>
 	</entry>
 	<entry xml:lang="en">
-		<title>The Project Begins</title>
+		<title>undertone: The Project Begins</title>
 		<published>2020-09-10T00:00:00+00:00</published>
 		<updated>2020-09-10T00:00:00+00:00</updated>
 		<link href="https://undertone.lfe.io/blog/2020/09/announcing-undertone/" type="text/html"/>
@@ -326,7 +494,7 @@
 </content>
 	</entry>
 	<entry xml:lang="en">
-		<title>Basic Markdown syntax</title>
+		<title>Blog Docs: Basic Markdown syntax</title>
 		<published>2020-09-09T00:00:00+00:00</published>
 		<updated>2020-09-09T00:00:00+00:00</updated>
 		<link href="https://undertone.lfe.io/blog/help/markdown/" type="text/html"/>

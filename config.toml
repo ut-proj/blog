@@ -2,6 +2,7 @@ title = "A Music Log"
 description = "Thoughts on music generation, composition, and theory (news about the undertone project, too)"
 base_url = "https://undertone.lfe.io/blog"
 theme = "anatole-zola"
+highlight_code = true
 compile_sass = true
 build_search_index = false
 generate_feed = true

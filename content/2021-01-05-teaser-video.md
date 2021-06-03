@@ -3,6 +3,9 @@ title = "Lambda Days: Teaser Video"
 template = "post.html"
 date = 2021-01-05T02:00:00Z
 slug = "2021/01/teaser-video"
+
+[taxonomies]
+tags = ["conferences", "talks", "video"]
 +++
 
 For a forthcoming talk at Lambda Days, a teaser video was recorded and put to music created by undertone; today, it has been announced by the conference here:

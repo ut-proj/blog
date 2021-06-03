@@ -1,11 +1,11 @@
 +++
-title = "Basic Markdown syntax"
+title = "Blog Docs: Basic Markdown syntax"
 template = "post.html"
 date = 2020-09-09T00:00:00Z
 slug = "help/markdown"
 
 [taxonomies]
-tags = ["reference", "meta"]
+tags = ["reference", "meta", "zola"]
 
 [extra]
 summary = "Shows how basic Markdown syntax are rendered"

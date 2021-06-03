@@ -110,6 +110,18 @@
         <lastmod>2020-09-09T00:00:00Z</lastmod>
     </url>
     <url>
+        <loc>https://undertone.lfe.io/blog/help/mp3player-shortcode/</loc>
+        <lastmod>2021-06-02T00:00:00Z</lastmod>
+    </url>
+    <url>
+        <loc>https://undertone.lfe.io/blog/help/score-shortcodes/</loc>
+        <lastmod>2021-06-01T00:00:00Z</lastmod>
+    </url>
+    <url>
+        <loc>https://undertone.lfe.io/blog/help/soundcloud-shortcodes/</loc>
+        <lastmod>2021-06-03T00:00:00Z</lastmod>
+    </url>
+    <url>
         <loc>https://undertone.lfe.io/blog/links/</loc>
     </url>
     <url>
@@ -131,10 +143,16 @@
         <loc>https://undertone.lfe.io/blog/tags/</loc>
     </url>
     <url>
+        <loc>https://undertone.lfe.io/blog/tags/audio/</loc>
+    </url>
+    <url>
         <loc>https://undertone.lfe.io/blog/tags/books/</loc>
     </url>
     <url>
         <loc>https://undertone.lfe.io/blog/tags/compositions/</loc>
+    </url>
+    <url>
+        <loc>https://undertone.lfe.io/blog/tags/conferences/</loc>
     </url>
     <url>
         <loc>https://undertone.lfe.io/blog/tags/docs/</loc>
@@ -144,6 +162,9 @@
     </url>
     <url>
         <loc>https://undertone.lfe.io/blog/tags/meta/</loc>
+    </url>
+    <url>
+        <loc>https://undertone.lfe.io/blog/tags/music/</loc>
     </url>
     <url>
         <loc>https://undertone.lfe.io/blog/tags/news/</loc>
@@ -158,6 +179,18 @@
         <loc>https://undertone.lfe.io/blog/tags/releases/</loc>
     </url>
     <url>
+        <loc>https://undertone.lfe.io/blog/tags/scores/</loc>
+    </url>
+    <url>
         <loc>https://undertone.lfe.io/blog/tags/social/</loc>
+    </url>
+    <url>
+        <loc>https://undertone.lfe.io/blog/tags/talks/</loc>
+    </url>
+    <url>
+        <loc>https://undertone.lfe.io/blog/tags/video/</loc>
+    </url>
+    <url>
+        <loc>https://undertone.lfe.io/blog/tags/zola/</loc>
     </url>
 </urlset>
