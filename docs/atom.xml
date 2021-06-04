@@ -403,7 +403,7 @@
 		<updated>2021-01-20T02:00:00+00:00</updated>
 		<link href="https://undertone.lfe.io/blog/2021/01/teaser-audio-track/" type="text/html"/>
 		<id>https://undertone.lfe.io/blog/2021/01/teaser-audio-track/</id>
-		<content type="html">&lt;p&gt;In the previous post regarding the &lt;a href=&quot;https:&#x2F;&#x2F;undertone.lfe.io&#x2F;blog&#x2F;2021&#x2F;01&#x2F;teaser-video&#x2F;&quot;&gt;video teaser&lt;&#x2F;a&gt; for Lambda Days, an audio track was used as the &amp;quot;score&amp;quot; for the video. It has now been published on soundcloud here:&lt;&#x2F;p&gt;
+		<content type="html">&lt;p&gt;In a previous post regarding the &lt;a href=&quot;https:&#x2F;&#x2F;undertone.lfe.io&#x2F;blog&#x2F;2021&#x2F;01&#x2F;teaser-video&#x2F;&quot;&gt;video teaser&lt;&#x2F;a&gt; for the Lambda Days 2021 conference, an ambient piece was used as the &amp;quot;score&amp;quot; for the video. It has now been published on soundcloud here:&lt;&#x2F;p&gt;
 &lt;div id=&quot;soundcloud-mini-wrapper&quot;&gt;
 &lt;iframe width=&quot;50%&quot; height=&quot;166&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; allow=&quot;autoplay&quot;
         src=&quot;https:&#x2F;&#x2F;w.soundcloud.com&#x2F;player&#x2F;?url=https%3A&#x2F;&#x2F;api.soundcloud.com&#x2F;tracks&#x2F;968360833&amp;color=%232d6072&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&quot;&gt;
@@ -412,7 +412,15 @@
   &lt;a href=&quot;https:&#x2F;&#x2F;soundcloud.com&#x2F;forgotten-tones&quot; title=&quot;𝚝𝚑𝚎 Forgotten Tones 𝚙𝚛𝚘𝚓𝚎𝚌𝚝&quot; target=&quot;_blank&quot; style=&quot;color: #cccccc; text-decoration: none;&quot;&gt;𝚝𝚑𝚎 Forgotten Tones 𝚙𝚛𝚘𝚓𝚎𝚌𝚝&lt;&#x2F;a&gt; · &lt;a href=&quot;https:&#x2F;&#x2F;soundcloud.com&#x2F;forgotten-tones&#x2F;conivnctio-iovis-et-satvrni&quot; title=&quot;CONIVNCTIO IOVIS ET SATVRNI&quot; target=&quot;_blank&quot; style=&quot;color: #cccccc; text-decoration: none;&quot;&gt;CONIVNCTIO IOVIS ET SATVRNI&lt;&#x2F;a&gt;
 &lt;&#x2F;div&gt;
 &lt;&#x2F;div&gt;
-&lt;p&gt;(add more about the background of the song, development, etc.)&lt;&#x2F;p&gt;
+&lt;p&gt;14 tracks were used to create this:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;nine tracks created with undertone (using the Extempore backend) for the bulk of the song; these were connected to various sounds in nine different instances of SynthMaster 2.9 software synths (VST plugin)&lt;&#x2F;li&gt;
+&lt;li&gt;two tracks of SynthMaster 2.9 used for intro and outro&lt;&#x2F;li&gt;
+&lt;li&gt;two tracks of Arturia&#x27;s Moog modular V (Moog System 55 emulation)) for intro and outro&lt;&#x2F;li&gt;
+&lt;li&gt;one FX send with Valhalla vintage reverb&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Pictured below is an image (captured by phone) of the 60&amp;quot; living room screen being used for final production of the song.&lt;&#x2F;p&gt;
+&lt;img src=&quot;..&#x2F;..&#x2F;..&#x2F;images&#x2F;teaser-video-track-production.jpg&quot; &#x2F;&gt; 
 </content>
 	</entry>
 	<entry xml:lang="en">
@@ -432,7 +440,7 @@
 		<updated>2021-01-05T02:00:00+00:00</updated>
 		<link href="https://undertone.lfe.io/blog/2021/01/teaser-video/" type="text/html"/>
 		<id>https://undertone.lfe.io/blog/2021/01/teaser-video/</id>
-		<content type="html">&lt;p&gt;For a forthcoming talk at Lambda Days, a teaser video was recorded and put to music created by undertone; today, it has been announced by the conference here:&lt;&#x2F;p&gt;
+		<content type="html">&lt;p&gt;For a forthcoming talk I&#x27;ll be giving at Lambda Days this year, I&#x27;ve created a teaser video:&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;LambdaDays&#x2F;status&#x2F;1346401873931198464&quot;&gt;twitter.com&#x2F;LambdaDays&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
@@ -440,6 +448,17 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=cfpAsvHW2i4&quot;&gt;youtu.be&#x2F;cfpAsvHW2i4&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
+&lt;p&gt;It&#x27;s my understanding that I received a invitation to speak at Lambda Days due to a well-received podcast interview on &lt;a href=&quot;https:&#x2F;&#x2F;www.functionalgeekery.com&#x2F;episode-132-duncan-mcgreggor&#x2F;&quot;&gt;Functional Geekery&lt;&#x2F;a&gt;. To my delight, I was told I could speak on any topic I desired, instantly I thought of undertone, even as new as it is, and began racing to get new featues implemented that would allow me to speak about the project meaninfully. &lt;&#x2F;p&gt;
+&lt;p&gt;First and foremost, undertone had to support the programmatic generation of music. To make matters more pressing, in late December, the conference organisers asked the speakers to create teaser video&#x27;s for their talks. At that point, the list became:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;land new features supporting music generation&lt;&#x2F;li&gt;
+&lt;li&gt;wrote code to generate a song&lt;&#x2F;li&gt;
+&lt;li&gt;record a video&lt;&#x2F;li&gt;
+&lt;li&gt;use the new LFE-created song as a &amp;quot;score&amp;quot; for the video&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;On 21 December, right as the Jupiter-Saturn conjunction was occuring and all telescopes on the planet were trained on Earth&#x27;s larger siblings, I finished recording an ambient track I could use for the video. Production took me far longer than I expected, I lost count of the number of takes before I had something moderately acceptable, and then post-production was a further time-wreck. &lt;&#x2F;p&gt;
+&lt;p&gt;I did finally complete the teaser late at night, after the 24th of December had turned into the 25th&#x27;s wee hours.&lt;&#x2F;p&gt;
+&lt;p&gt;In the end, though, I had an &lt;em&gt;enormously&lt;&#x2F;em&gt; good time both creating the music and putting it to video. It has inspired me to attempt a full album of ambient music in this vein ... we shall see!&lt;&#x2F;p&gt;
 </content>
 	</entry>
 	<entry xml:lang="en">
@@ -528,6 +547,14 @@
 		<link href="https://undertone.lfe.io/blog/2020/09/announcing-undertone/" type="text/html"/>
 		<id>https://undertone.lfe.io/blog/2020/09/announcing-undertone/</id>
 		<content type="html">&lt;p&gt;There&#x27;s a new Github org for undertone at &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;ut-proj&quot;&gt;github.com&#x2F;ut-proj&lt;&#x2F;a&gt;. The undertone project proper is at &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;ut-proj&#x2F;undertone&quot;&gt;github.com&#x2F;ut-proj&#x2F;undertone&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;For the curious, the timeline of causality for this project is:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;2012-2014&lt;&#x2F;strong&gt;: Initial experimentation with Overtone.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;2014&lt;&#x2F;strong&gt;:  Met Andrew Sorensen, creator of Extempore, at OSCON 2014 after his incredible live coding keynote. Chatted with other LFE developers on IRC, pondered some possible mechanisms for integrating LFE&#x2F;OTP and Extempore, but nothing panned out.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;2015-2019&lt;&#x2F;strong&gt;: Did some more Overtone and SuperCollider experimentation. Despite multiple attempts over the years, it never really captured my full interest.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;8 September 2020&lt;&#x2F;strong&gt;: Aleksander Lisiecki wrote the blog post &lt;a href=&quot;https:&#x2F;&#x2F;www.erlang-solutions.com&#x2F;blog&#x2F;the-sound-of-erlang-how-to-use-erlang-as-an-instrument&#x2F;&quot;&gt;The sound of Erlang: How to use Erlang as an instrument&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;10 September 2020&lt;&#x2F;strong&gt; (today): I published an &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;lfe&#x2F;examples&#x2F;tree&#x2F;master&#x2F;sound-of-lfe&quot;&gt;LFE port&lt;&#x2F;a&gt; of the Erlang code in that blog post, and then immediately created the undertone project, knowing how much further I want to take things :-)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
 </content>
 	</entry>
 	<entry xml:lang="en">

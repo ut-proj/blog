@@ -5,11 +5,11 @@ date = 2021-01-20T02:00:00Z
 slug = "2021/01/teaser-audio-track"
 
 [taxonomies]
-tags = ["conferences", "talks", "audio"]
+tags = ["conferences", "talks", "audio", "music", "scores"]
 
 +++
 
-In the previous post regarding the [video teaser](@/2021-01-05-teaser-video.md) for Lambda Days, an audio track was used as the "score" for the video. It has now been published on soundcloud here:
+In a previous post regarding the [video teaser](@/2021-01-05-teaser-video.md) for the Lambda Days 2021 conference, an ambient piece was used as the "score" for the video. It has now been published on soundcloud here:
 
 {{ soundcloud_mini(
        track_id="968360833",
@@ -22,4 +22,13 @@ In the previous post regarding the [video teaser](@/2021-01-05-teaser-video.md) 
        show_comments="false",
        hide_related="true") }}
 
-(add more about the background of the song, development, etc.)
+14 tracks were used to create this:
+
+* nine tracks created with undertone (using the Extempore backend) for the bulk of the song; these were connected to various sounds in nine different instances of SynthMaster 2.9 software synths (VST plugin)
+* two tracks of SynthMaster 2.9 used for intro and outro
+* two tracks of Arturia's Moog modular V (Moog System 55 emulation)) for intro and outro
+* one FX send with Valhalla vintage reverb
+
+Pictured below is an image (captured by phone) of the 60" living room screen being used for final production of the song.
+
+<img src="../../../images/teaser-video-track-production.jpg" /> 
