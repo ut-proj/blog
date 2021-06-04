@@ -339,11 +339,11 @@
 </content>
 	</entry>
 	<entry xml:lang="en">
-		<title>Version 0.3.0 Released</title>
+		<title>undertone 0.3.0 Released</title>
 		<published>2021-02-20T23:00:08+00:00</published>
 		<updated>2021-02-20T23:00:08+00:00</updated>
-		<link href="https://undertone.lfe.io/blog/2021/02/release-0.3.0/" type="text/html"/>
-		<id>https://undertone.lfe.io/blog/2021/02/release-0.3.0/</id>
+		<link href="https://undertone.lfe.io/blog/2021/02/undertone-0.3.0/" type="text/html"/>
+		<id>https://undertone.lfe.io/blog/2021/02/undertone-0.3.0/</id>
 		<content type="html">&lt;h2 id=&quot;new-release&quot;&gt;New Release&lt;&#x2F;h2&gt;
 &lt;p&gt;Version 0.3.0 of undertone has been released.&lt;&#x2F;p&gt;
 &lt;p&gt;Releases are available &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;ut-proj&#x2F;undertone&#x2F;tags&quot;&gt;here&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
@@ -416,6 +416,17 @@
 </content>
 	</entry>
 	<entry xml:lang="en">
+		<title>Erlang midilib 0.2.0 Released</title>
+		<published>2021-01-08T23:00:08+00:00</published>
+		<updated>2021-01-08T23:00:08+00:00</updated>
+		<link href="https://undertone.lfe.io/blog/2021/01/midilib-0.2.0/" type="text/html"/>
+		<id>https://undertone.lfe.io/blog/2021/01/midilib-0.2.0/</id>
+		<content type="html">&lt;h2 id=&quot;new-release&quot;&gt;New Release&lt;&#x2F;h2&gt;
+&lt;p&gt;Version 0.2.0 of the Erlang midilib library has been released. This library is being used experimentally by undertone to explore MIDI-via-Erlang.&lt;&#x2F;p&gt;
+&lt;p&gt;Releases are available &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;erlsci&#x2F;midilib&#x2F;tags&quot;&gt;here&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
 		<title>Lambda Days: Teaser Video</title>
 		<published>2021-01-05T02:00:00+00:00</published>
 		<updated>2021-01-05T02:00:00+00:00</updated>
@@ -442,11 +453,11 @@
 </content>
 	</entry>
 	<entry xml:lang="en">
-		<title>Version 0.2.0 Released</title>
+		<title>undertone 0.2.0 Released</title>
 		<published>2020-12-10T23:00:08+00:00</published>
 		<updated>2020-12-10T23:00:08+00:00</updated>
-		<link href="https://undertone.lfe.io/blog/2020/12/release-0.2.0/" type="text/html"/>
-		<id>https://undertone.lfe.io/blog/2020/12/release-0.2.0/</id>
+		<link href="https://undertone.lfe.io/blog/2020/12/undertone-0.2.0/" type="text/html"/>
+		<id>https://undertone.lfe.io/blog/2020/12/undertone-0.2.0/</id>
 		<content type="html">&lt;h2 id=&quot;new-release&quot;&gt;New Release&lt;&#x2F;h2&gt;
 &lt;p&gt;Version 0.2.0 of undertone has been released.&lt;&#x2F;p&gt;
 &lt;p&gt;Releases are available &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;ut-proj&#x2F;undertone&#x2F;tags&quot;&gt;here&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
@@ -468,11 +479,22 @@
 </content>
 	</entry>
 	<entry xml:lang="en">
-		<title>Version 0.1.0 Released</title>
+		<title>Erlang OSC 2.1.0 Released</title>
 		<published>2020-11-28T23:00:08+00:00</published>
 		<updated>2020-11-28T23:00:08+00:00</updated>
-		<link href="https://undertone.lfe.io/blog/2020/11/release-0.1.0/" type="text/html"/>
-		<id>https://undertone.lfe.io/blog/2020/11/release-0.1.0/</id>
+		<link href="https://undertone.lfe.io/blog/2020/11/osc-2.1.0/" type="text/html"/>
+		<id>https://undertone.lfe.io/blog/2020/11/osc-2.1.0/</id>
+		<content type="html">&lt;h2 id=&quot;new-release&quot;&gt;New Release&lt;&#x2F;h2&gt;
+&lt;p&gt;Version 2.1.0 of the Erlang OSC (Open Sound Control) library has been released. This library is being used by undertone to provide OSC support.&lt;&#x2F;p&gt;
+&lt;p&gt;Releases are available &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;erlsci&#x2F;osc&#x2F;tags&quot;&gt;here&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>undertone 0.1.0 Released</title>
+		<published>2020-11-28T23:00:08+00:00</published>
+		<updated>2020-11-28T23:00:08+00:00</updated>
+		<link href="https://undertone.lfe.io/blog/2020/11/undertone-0.1.0/" type="text/html"/>
+		<id>https://undertone.lfe.io/blog/2020/11/undertone-0.1.0/</id>
 		<content type="html">&lt;h2 id=&quot;first-release&quot;&gt;First Release&lt;&#x2F;h2&gt;
 &lt;p&gt;Version 0.1.0 of undertone has been released.&lt;&#x2F;p&gt;
 &lt;p&gt;Releases are available &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;ut-proj&#x2F;undertone&#x2F;tags&quot;&gt;here&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
@@ -486,6 +508,17 @@
 		<id>https://undertone.lfe.io/blog/2020/11/twitter/</id>
 		<content type="html">&lt;p&gt;The undertone project has a new Twitter account: &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;lfeundertone&quot;&gt;twitter.com&#x2F;lfeundertone&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
 &lt;p&gt;More to come ...&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Erlang OSC 2.0.0 Released</title>
+		<published>2020-11-21T23:00:08+00:00</published>
+		<updated>2020-11-21T23:00:08+00:00</updated>
+		<link href="https://undertone.lfe.io/blog/2020/11/osc-2.0.0/" type="text/html"/>
+		<id>https://undertone.lfe.io/blog/2020/11/osc-2.0.0/</id>
+		<content type="html">&lt;h2 id=&quot;new-release&quot;&gt;New Release&lt;&#x2F;h2&gt;
+&lt;p&gt;Version 2.0.0 of the Erlang OSC (Open Sound Control) library has been released. This library is being used by undertone to provide OSC support.&lt;&#x2F;p&gt;
+&lt;p&gt;Releases are available &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;erlsci&#x2F;osc&#x2F;tags&quot;&gt;here&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
 </content>
 	</entry>
 	<entry xml:lang="en">

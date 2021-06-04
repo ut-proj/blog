@@ -8,7 +8,11 @@
         <lastmod>2020-09-10T00:00:00Z</lastmod>
     </url>
     <url>
-        <loc>https://undertone.lfe.io/blog/2020/11/release-0.1.0/</loc>
+        <loc>https://undertone.lfe.io/blog/2020/11/osc-2.0.0/</loc>
+        <lastmod>2020-11-21T23:00:08Z</lastmod>
+    </url>
+    <url>
+        <loc>https://undertone.lfe.io/blog/2020/11/osc-2.1.0/</loc>
         <lastmod>2020-11-28T23:00:08Z</lastmod>
     </url>
     <url>
@@ -16,16 +20,24 @@
         <lastmod>2020-11-28T15:00:00Z</lastmod>
     </url>
     <url>
+        <loc>https://undertone.lfe.io/blog/2020/11/undertone-0.1.0/</loc>
+        <lastmod>2020-11-28T23:00:08Z</lastmod>
+    </url>
+    <url>
         <loc>https://undertone.lfe.io/blog/2020/12/instagram/</loc>
         <lastmod>2020-12-14T15:00:00Z</lastmod>
     </url>
     <url>
-        <loc>https://undertone.lfe.io/blog/2020/12/release-0.2.0/</loc>
+        <loc>https://undertone.lfe.io/blog/2020/12/undertone-0.2.0/</loc>
         <lastmod>2020-12-10T23:00:08Z</lastmod>
     </url>
     <url>
         <loc>https://undertone.lfe.io/blog/2020/12/undertone-book/</loc>
         <lastmod>2020-12-02T06:00:00Z</lastmod>
+    </url>
+    <url>
+        <loc>https://undertone.lfe.io/blog/2021/01/midilib-0.2.0/</loc>
+        <lastmod>2021-01-08T23:00:08Z</lastmod>
     </url>
     <url>
         <loc>https://undertone.lfe.io/blog/2021/01/teaser-audio-track/</loc>
@@ -56,16 +68,16 @@
         <lastmod>2021-02-18T02:00:00Z</lastmod>
     </url>
     <url>
-        <loc>https://undertone.lfe.io/blog/2021/02/release-0.3.0/</loc>
-        <lastmod>2021-02-20T23:00:08Z</lastmod>
-    </url>
-    <url>
         <loc>https://undertone.lfe.io/blog/2021/02/soundcloud/</loc>
         <lastmod>2021-02-27T05:00:00Z</lastmod>
     </url>
     <url>
         <loc>https://undertone.lfe.io/blog/2021/02/starting-generative-music/</loc>
         <lastmod>2021-02-19T02:00:00Z</lastmod>
+    </url>
+    <url>
+        <loc>https://undertone.lfe.io/blog/2021/02/undertone-0.3.0/</loc>
+        <lastmod>2021-02-20T23:00:08Z</lastmod>
     </url>
     <url>
         <loc>https://undertone.lfe.io/blog/2021/03/codebeam-america/</loc>
@@ -140,6 +152,9 @@
         <loc>https://undertone.lfe.io/blog/page/5/</loc>
     </url>
     <url>
+        <loc>https://undertone.lfe.io/blog/page/6/</loc>
+    </url>
+    <url>
         <loc>https://undertone.lfe.io/blog/tags/</loc>
     </url>
     <url>
@@ -161,13 +176,22 @@
         <loc>https://undertone.lfe.io/blog/tags/github/</loc>
     </url>
     <url>
+        <loc>https://undertone.lfe.io/blog/tags/libraries/</loc>
+    </url>
+    <url>
         <loc>https://undertone.lfe.io/blog/tags/meta/</loc>
+    </url>
+    <url>
+        <loc>https://undertone.lfe.io/blog/tags/midi/</loc>
     </url>
     <url>
         <loc>https://undertone.lfe.io/blog/tags/music/</loc>
     </url>
     <url>
         <loc>https://undertone.lfe.io/blog/tags/news/</loc>
+    </url>
+    <url>
+        <loc>https://undertone.lfe.io/blog/tags/osc/</loc>
     </url>
     <url>
         <loc>https://undertone.lfe.io/blog/tags/project/</loc>
