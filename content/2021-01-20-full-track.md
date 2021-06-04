@@ -32,3 +32,7 @@ In a previous post regarding the [video teaser](@/2021-01-05-teaser-video.md) fo
 Pictured below is an image (captured by phone) of the 60" living room screen being used for final production of the song.
 
 <img src="../../../images/teaser-video-track-production.jpg" /> 
+
+A fun side note is that the chords used for this song were originally taken from Paul Davids' first [Beautiful Chords video](https://www.youtube.com/watch?v=K_T-jYyQCbQ). 
+
+Lastly, I documented some of the process from chords to song in [this ticket](https://github.com/ut-proj/undertone/issues/37).
