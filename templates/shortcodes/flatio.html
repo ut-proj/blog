@@ -2,11 +2,10 @@
 <div class="score-wraper">
   <div id="flatio-{{ id }}"></div>
   <script>
-    {% set score_url = get_url(path=score_path) -%}
     function doFlatIO{{ id }}() {
         var container = document.getElementById('flatio-{{ id }}');
         var embed{{id}} = new Flat.Embed(container, {
-            score: "{{ score_url | safe }}",
+            score: "{{ score_id }}",
             embedParams: {
                 appId: "{{ config.extra.flatio.app_id }}",
                 controlsPosition: 'top',

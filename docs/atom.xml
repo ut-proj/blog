@@ -81,21 +81,21 @@
 		<id>https://undertone.lfe.io/blog/help/score-shortcodes/</id>
 		<content type="html">&lt;p&gt;In the content markdown header:&lt;&#x2F;p&gt;
 &lt;pre style=&quot;background-color:#2b303b;&quot;&gt;
-&lt;code class=&quot;language-toml&quot; data-lang=&quot;toml&quot;&gt;&lt;span style=&quot;background-color:#bf616a;color:#2b303b;&quot;&gt;+++&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;
-
-...
-
-[extra]
+&lt;code class=&quot;language-toml&quot; data-lang=&quot;toml&quot;&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;[extra]
 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;flatio_enabled &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;true
 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;osmd_enabled &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;true
 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;verovio_enabled &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;true
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;+++
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;&lt;pre style=&quot;background-color:#2b303b;&quot;&gt;
-&lt;code class=&quot;language-jinja2&quot; data-lang=&quot;jinja2&quot;&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;{{ &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;osmd&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;id&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;=1, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;score_path&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;scores&#x2F;bach-intervals&#x2F;stacked-dims-plus-2-stave.xml&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&amp;quot;) }}
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Then, in the body of the Markdown content file:&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;&quot;&gt;
+&lt;code class=&quot;language-jinja2&quot; data-lang=&quot;jinja2&quot;&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;{{ &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;osmd&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;id&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;=1,
+        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;score_path&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;scores&#x2F;bach-intervals&#x2F;stacked-dims-plus-2-stave.xml&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&amp;quot;) }}
 
-{{ &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;flatio&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;id&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;=2, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;score_path&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;scores&#x2F;bach-intervals&#x2F;stacked-dims-plus-2-stave.xml&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&amp;quot;) }}
+{{ &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;flatio&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;id&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;=2
+          &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;score_id&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;60b993ca1c5fff0014c01d3d&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&amp;quot;) }}
 
-{{ &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;verovio&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;id&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;=3, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;score_path&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;scores&#x2F;bach-intervals&#x2F;stacked-dims-plus-2-stave.xml&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&amp;quot;) }}
+{{ &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;verovio&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;id&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;=3,
+           &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;score_path&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;scores&#x2F;bach-intervals&#x2F;stacked-dims-plus-2-stave.xml&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&amp;quot;) }}
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;Which render as shown below.&lt;&#x2F;p&gt;
 &lt;p&gt;Open Sheet Music Display:&lt;&#x2F;p&gt;
@@ -122,6 +122,7 @@
     window.addEventListener(&quot;load&quot;, doOSMD1, false);
   &lt;&#x2F;script&gt;
 &lt;&#x2F;div&gt;
+&lt;p&gt;I&#x27;ve had the most success and best performance with the Open Sheet Music Display score rendering.&lt;&#x2F;p&gt;
 &lt;p&gt;Flat.io:&lt;&#x2F;p&gt;
 &lt;div class=&quot;score-wraper&quot;&gt;
   &lt;div id=&quot;flatio-2&quot;&gt;&lt;&#x2F;div&gt;
@@ -129,7 +130,7 @@
     function doFlatIO2() {
         var container = document.getElementById(&#x27;flatio-2&#x27;);
         var embed2 = new Flat.Embed(container, {
-            score: &quot;https:&#x2F;&#x2F;undertone.lfe.io&#x2F;blog&#x2F;scores&#x2F;bach-intervals&#x2F;stacked-dims-plus-2-stave.xml&quot;,
+            score: &quot;60b993ca1c5fff0014c01d3d&quot;,
             embedParams: {
                 appId: &quot;60a50e3db361363d9d745231&quot;,
                 controlsPosition: &#x27;top&#x27;,
@@ -139,6 +140,7 @@
     window.addEventListener(&quot;load&quot;, doFlatIO2, false);
   &lt;&#x2F;script&gt;
 &lt;&#x2F;div&gt;
+&lt;p&gt;Noter that, in the case of the flat.io, you need to have uploaded your score to their service and pass not a local path as with the others, but instead a score id. One benefit of flat.io is the embedded MIDI player for all scores.&lt;&#x2F;p&gt;
 &lt;p&gt;Verovio:&lt;&#x2F;p&gt;
 &lt;div class=&quot;score-wraper&quot;&gt;
   &lt;div class=&quot;panel-body&quot;&gt;
